@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLMs for Election Data Extraction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            overflow: hidden;
+        }
+
+        .slides-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100vw;
+            height: 100vh;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            border-right: 1px solid #333;
+            overflow-y: auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            color: #4a9eff;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            color: #ffa94d;
+            font-weight: 600;
+        }
+
+        p, li {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            margin-bottom: 0.8rem;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: #4a9eff;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: #4a9eff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 1.2rem;
+            border: 1px solid #444;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border: 1px solid #444;
+        }
+
+        th {
+            background: #2a2a2a;
+            color: #4a9eff;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #252525;
+        }
+
+        .highlight {
+            background: #2d4a2d;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            color: #7cff7c;
+        }
+
+        .warning {
+            background: #4a2d2d;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            color: #ff7c7c;
+        }
+
+        .medium {
+            background: #4a4a2d;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            color: #ffeb7c;
+        }
+
+        .image-placeholder {
+            background: #2a2a2a;
+            border: 2px dashed #444;
+            border-radius: 8px;
+            padding: 3rem;
+            text-align: center;
+            margin: 1rem 0;
+            color: #888;
+            font-size: 1.1rem;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .control-btn {
+            background: #2a2a2a;
+            border: 2px solid #4a9eff;
+            color: #4a9eff;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .control-btn:hover {
+            background: #4a9eff;
+            color: #1a1a1a;
+        }
+
+        .control-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            border-color: #666;
+            color: #666;
+        }
+
+        .control-btn:disabled:hover {
+            background: #2a2a2a;
+            color: #666;
+        }
+
+        .slide-counter {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            font-size: 1.2rem;
+            color: #888;
+            z-index: 1000;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 1rem 0;
+        }
+
+        .key-point {
+            background: #2a2a2a;
+            padding: 1.2rem;
+            border-radius: 8px;
+            border-left: 4px solid #4a9eff;
+            margin: 1rem 0;
+        }
+
+        .key-point ul {
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+        }
+
+        code {
+            background: #2a2a2a;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #ffa94d;
+        }
+
+        strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 1.4rem;
+            color: #aaa;
+            margin-bottom: 2rem;
+        }
+
+        .compact-table {
+            font-size: 1.1rem;
+        }
+
+        .compact-table th,
+        .compact-table td {
+            padding: 0.7rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slides-container" id="slidesContainer">
+        
+        <!-- Slide 1: Title -->
+        <div class="slide">
+            <h1>Can LLMs Parse Election PDFs?</h1>
+            <p class="subtitle">Testing Against Verified Reference Data</p>
+            
+            <ul style="margin-top: 2rem;">
+                <li>The challenge: 254 Texas counties, 82 Mississippi counties, dozens of Pennsylvania counties</li>
+                <li>Each has unique PDF formats (image scans, multi-column layouts, varying structures)</li>
+                <li>Traditional approaches: OCR + manual cleanup, custom Python parsers, web UI tools</li>
+                <li>All expensive, slow, require expertise</li>
+            </ul>
+
+            <div class="image-placeholder">
+                [Image: Side-by-side comparison of 3 different county PDF formats (TX, MS, PA)]
+            </div>
+
+            <p style="margin-top: 1rem;">
+                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">View sample PDFs →</a>
+            </p>
+        </div>
+
+        <!-- Slide 2: What We Tested -->
+        <div class="slide">
+            <h2>What We Tested</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Sample Size</th>
+                        <th>Models</th>
+                        <th>Baseline (Reference Data)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Texas</strong></td>
+                        <td>8 counties (~3% of state)</td>
+                        <td>4 (Claude Haiku/Sonnet, Gemini Flash/Pro)</td>
+                        <td>Web UI LLM OCR + Python parsers</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mississippi</strong></td>
+                        <td>9-80 counties</td>
+                        <td>5 (+ GPT-5.1)</td>
+                        <td>OCR + manual data manipulation</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pennsylvania</strong></td>
+                        <td>Multiple counties</td>
+                        <td>Traditional parsers (comparison)</td>
+                        <td>Custom Python parsers (Electionware)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="key-point">
+                <strong>Critical point:</strong> We're comparing LLM extraction to <strong>verified reference data</strong>, not raw PDFs. These reference files were already extracted and validated through multiple methods. We're measuring: can LLMs match results that took us weeks to produce?
+            </div>
+
+            <p><strong>Sample selection:</strong> Deliberately chose counties with different formats, complexity levels (4-47 precincts), and layout styles.</p>
+
+            <p style="margin-top: 1rem;">
+                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">TX extraction code</a> | 
+                <a href="https://github.com/openelections/openelections-data-ms" target="_blank">MS extraction code</a> | 
+                <a href="https://github.com/openelections/openelections-data-pa" target="_blank">PA parser code</a>
+            </p>
+        </div>
+
+        <!-- Slide 3: What Works -->
+        <div class="slide">
+            <h2>The Results - What Works</h2>
+            
+            <h3>Best Performance Against Reference Data:</h3>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>Accuracy</th>
+                        <th>Sample</th>
+                        <th>Baseline Method</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Gemini 2.5 Pro</strong></td>
+                        <td><span class="highlight">99.1%</span></td>
+                        <td>9 MS counties</td>
+                        <td>OCR + manual cleanup</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Claude Haiku</strong></td>
+                        <td><span class="highlight">100%</span></td>
+                        <td>Scurry County, TX</td>
+                        <td>Web UI + parsers</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Claude Haiku</strong></td>
+                        <td><span class="highlight">99.9%</span></td>
+                        <td>Limestone County, TX (21 precincts)</td>
+                        <td>Web UI + parsers</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="two-column">
+                <div>
+                    <h3>What this means:</h3>
+                    <ul>
+                        <li>LLMs can match months of manual work in hours</li>
+                        <li>2,495 votes verified across 8 TX counties: 77.8% match to reference</li>
+                        <li>Some counties: perfect match. Others: &lt;20% match</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Success factors:</h3>
+                    <ul>
+                        <li>Clean, well-formatted PDFs (even if scanned)</li>
+                        <li>Consistent table structures</li>
+                        <li>Standard precinct naming</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="key-point">
+                <strong>Critical insight:</strong> Same model against same reference standard: 100% accuracy on one county, 16% on another. Format drives everything.
+            </div>
+        </div>
+
+        <!-- Slide 4: Texas County-by-County Results -->
+        <div class="slide">
+            <h2>Texas Results: Claude Haiku 4.5</h2>
+            
+            <h3>County-by-County Performance vs. Reference Data</h3>
+            
+            <table class="compact-table">
+                <thead>
+                    <tr>
+                        <th>County</th>
+                        <th>Precincts</th>
+                        <th>Votes Checked</th>
+                        <th>Vote Accuracy</th>
+                        <th>Precinct Errors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Scurry</strong></td>
+                        <td>11</td>
+                        <td>321</td>
+                        <td><span class="highlight">100.0%</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Limestone</strong></td>
+                        <td>21</td>
+                        <td>870</td>
+                        <td><span class="highlight">99.9%</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>San Saba</strong></td>
+                        <td>6</td>
+                        <td>72</td>
+                        <td><span class="highlight">91.7%</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Foard</strong></td>
+                        <td>4</td>
+                        <td>146</td>
+                        <td><span class="medium">84.9%</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lynn</strong></td>
+                        <td>8</td>
+                        <td>376</td>
+                        <td><span class="medium">71.5%</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jones</strong></td>
+                        <td>4</td>
+                        <td>240</td>
+                        <td><span class="medium">68.3%</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cottle</strong></td>
+                        <td>4</td>
+                        <td>106</td>
+                        <td><span class="medium">64.2%</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Panola</strong></td>
+                        <td>19</td>
+                        <td>364</td>
+                        <td><span class="warning">16.2%</span></td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="key-point">
+                <strong>Overall:</strong> 2,495 votes checked, <span class="medium">77.8%</span> accuracy, <strong>0</strong> precinct name errors
+            </div>
+
+            <div class="two-column">
+                <div>
+                    <h3>Pattern: High Success</h3>
+                    <ul>
+                        <li>Scurry, Limestone: Clean layouts</li>
+                        <li>Standard table structures</li>
+                        <li>Consistent formatting</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Pattern: Low Success</h3>
+                    <ul>
+                        <li>Panola: Many 0-vote candidates</li>
+                        <li>Vote misreads (233→227)</li>
+                        <li>Same problems across models</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p style="margin-top: 1rem;">
+                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">Full Texas comparison report →</a>
+            </p>
+        </div>
+
+        <!-- Slide 5: What Breaks -->
+        <div class="slide">
+            <h2>The Results - What Breaks</h2>
+            
+            <h3>Common Failure Patterns When Comparing to Reference:</h3>
+
+            <div style="margin-top: 1rem;">
+                <p><strong>1. Missing zero-value rows</strong> (all models)</p>
+                <ul>
+                    <li>Reference data includes candidates with 0 votes</li>
+                    <li>LLMs consistently omit these</li>
+                    <li>San Saba County, TX: 6 write-in rows with 0 votes in reference, all missing</li>
+                    <li>Panola County, TX: 6 minor party candidates with 0 votes, missing</li>
+                </ul>
+
+                <p style="margin-top: 0.8rem;"><strong>2. Incomplete extraction</strong> (especially Claude models)</p>
+                <ul>
+                    <li>Reference has 3,936 rows</li>
+                    <li>LLMs extracted only 3,131-3,697 rows</li>
+                    <li>Missing Supreme Court races in Jones, Lynn, Cottle counties</li>
+                </ul>
+
+                <p style="margin-top: 0.8rem;"><strong>3. Vote count errors</strong> (PDF-specific)</p>
+                <ul>
+                    <li>Panola County, TX: Claude Haiku <span class="warning">16.2%</span> match to reference (233→227)</li>
+                    <li>Jones County, TX: <span class="warning">&lt;14%</span> match across multiple models</li>
+                    <li>Same counties fail across different models</li>
+                </ul>
+
+                <p style="margin-top: 0.8rem;"><strong>4. Precinct name OCR errors</strong> (all models)</p>
+                <ul>
+                    <li>Mississippi: 2,898 precinct name errors vs. reference (Claude Haiku, 80 counties)</li>
+                    <li>Texas: 0 precinct errors across 2,495 verified votes</li>
+                    <li>Fixable with validation scripts</li>
+                </ul>
+            </div>
+
+            <div class="key-point" style="margin-top: 1.5rem;">
+                <strong>Key insight:</strong> When models disagree with reference data, the same problem counties appear consistently. This isn't random—it's tied to PDF characteristics we haven't fully identified.
+            </div>
+
+            <p style="margin-top: 1rem;">
+                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">Detailed error analysis →</a>
+            </p>
+        </div>
+
+        <!-- Slide 6: Pennsylvania Parsers -->
+        <div class="slide">
+            <h2>Pennsylvania - What Custom Parsers Actually Cost</h2>
+            
+            <h3>Baseline Method: Custom Python Parsers</h3>
+            
+            <p>Electionware system (used by many PA counties):</p>
+            <ul>
+                <li>Months of development, debugging, testing</li>
+                <li>Documented 10 major issues encountered during development</li>
+                <li>Result: High-quality, reliable extraction... eventually</li>
+            </ul>
+
+            <h3 style="margin-top: 1.5rem;">Issues discovered building the reference parsers:</h3>
+            <div class="two-column">
+                <div>
+                    <ul>
+                        <li>Hard-coded values → dynamic extraction (weeks of refactoring)</li>
+                        <li>Format variations between election years (2024 vs 2025 broke parsers)</li>
+                        <li>Missing party codes (DAR = cross-filing)</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Loop control bugs (candidates misattributed to wrong offices)</li>
+                        <li>Office header variations (ALL-CAPS vs. Mixed-Case)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="key-point" style="margin-top: 1.5rem;">
+                <strong>The parser works great now.</strong> But:
+                <ul>
+                    <li>Required Python expertise</li>
+                    <li>Broke when format changed slightly</li>
+                    <li>Not portable to other states</li>
+                    <li>Substantial upfront time investment</li>
+                    <li>Ongoing maintenance for format changes</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 1.5rem; font-size: 1.4rem;"><strong>LLM comparison:</strong> Parsers = high accuracy, high development cost. LLMs = variable accuracy, zero development cost.</p>
+
+            <p style="margin-top: 1rem; font-size: 1.4rem; color: #ffa94d;"><strong>Real question:</strong> If we're comparing LLMs to "verified reference data," what if the LLMs could have created that reference data faster?</p>
+
+            <p style="margin-top: 1rem;">
+                <a href="https://github.com/openelections/openelections-data-pa" target="_blank">PA parser development guide →</a>
+            </p>
+        </div>
+
+        <!-- Slide 7: Verification -->
+        <div class="slide">
+            <h2>Verification Strategies</h2>
+            
+            <p style="font-size: 1.4rem; margin-bottom: 1rem;">You can't just trust LLM output. Here's how we validate against reference:</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <p><strong>1. Direct comparison to reference data</strong></p>
+                    <ul>
+                        <li>Vote count matching (what we measured)</li>
+                        <li>Precinct name validation</li>
+                        <li>Candidate presence verification</li>
+                        <li>Identifies systematic vs. random errors</li>
+                    </ul>
+
+                    <p style="margin-top: 0.8rem;"><strong>2. County-level total checks</strong></p>
+                    <ul>
+                        <li>Extract precinct data with LLM</li>
+                        <li>Compare sums to official county totals</li>
+                        <li>Catches missing races, incorrect vote counts</li>
+                        <li>Independent of reference data method</li>
+                    </ul>
+
+                    <p style="margin-top: 0.8rem;"><strong>3. Multi-model extraction on samples</strong></p>
+                    <ul>
+                        <li>Run 2-3 models on representative counties</li>
+                        <li>Where they agree, confidence is high</li>
+                        <li>Where they disagree, compare to reference</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>4. Automated validation patterns</strong></p>
+                    <ul>
+                        <li>Row count checks (expected vs. actual)</li>
+                        <li>Zero-vote pattern detection</li>
+                        <li>Race completeness verification</li>
+                    </ul>
+
+                    <p style="margin-top: 0.8rem;"><strong>5. Targeted manual review</strong></p>
+                    <ul>
+                        <li>Focus on counties with low match rates (&lt;80%)</li>
+                        <li>Spot-check high-confidence extractions (&gt;95%)</li>
+                        <li>Verify error patterns found in samples</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="key-point" style="margin-top: 1.5rem;">
+                <strong>Key point:</strong> Having reference data let us measure accuracy. In production, you'd use methods 2-5.
+            </div>
+        </div>
+
+        <!-- Slide 8: Deployment -->
+        <div class="slide">
+            <h2>Real-World Deployment Recommendation</h2>
+            
+            <h3>Production Strategy Based on Comparison to Reference:</h3>
+
+            <div style="margin-top: 1rem;">
+                <p><strong>Tier 1: Replace existing extraction methods</strong> <span class="highlight">(95%+ match)</span></p>
+                <ul>
+                    <li>PDFs like Limestone, Scurry, San Saba (TX)</li>
+                    <li>Adams, Amite, Attala (MS with Gemini Flash/2.5 Pro)</li>
+                    <li>Use LLMs instead of OCR + manual cleanup</li>
+                    <li>Validate with county totals</li>
+                </ul>
+
+                <p style="margin-top: 1rem;"><strong>Tier 2: LLM as first pass</strong> <span style="background: #3a3a2a; padding: 0.2rem 0.5rem; border-radius: 4px;">(70-90% match)</span></p>
+                <ul>
+                    <li>Most TX/MS sample counties</li>
+                    <li>Faster than manual, but needs verification</li>
+                    <li>Multi-model extraction for critical races</li>
+                    <li>Systematic spot-checking</li>
+                </ul>
+
+                <p style="margin-top: 1rem;"><strong>Tier 3: Stick with custom parsers or manual</strong> <span class="warning">(&lt;70% match)</span></p>
+                <ul>
+                    <li>PDFs like Panola, Jones, Pike (consistent &lt;20% match)</li>
+                    <li>Format changes frequently (PA Electionware between years)</li>
+                    <li>Critical accuracy requirements</li>
+                    <li>Or: use LLMs with heavy manual verification</li>
+                </ul>
+            </div>
+
+            <div class="key-point" style="margin-top: 1.5rem;">
+                <strong>The value proposition:</strong>
+                <ul>
+                    <li>Good formats: LLMs can replace weeks of OCR + manual work</li>
+                    <li>Medium formats: LLMs reduce manual work significantly</li>
+                    <li>Bad formats: LLMs waste time, stick with proven methods</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 9: Conclusions -->
+        <div class="slide">
+            <h2>What This Actually Means</h2>
+            
+            <h3>What we learned comparing to verified data:</h3>
+            <ul>
+                <li>Some PDF formats: LLMs match months of manual work <span class="highlight">(99-100%)</span></li>
+                <li>Other formats: LLMs can't match manual work <span class="warning">(&lt;20%)</span></li>
+                <li>Zero-value rows universally problematic across all models</li>
+                <li>Format matters more than model sophistication</li>
+            </ul>
+
+            <h3 style="margin-top: 1.5rem;">Cost-benefit analysis:</h3>
+            <ul>
+                <li>Mississippi OCR + manual: weeks of work per county</li>
+                <li>LLM extraction: minutes per county</li>
+                <li>If accuracy matches: massive time savings</li>
+                <li>If accuracy doesn't match: wasted effort</li>
+            </ul>
+
+            <div class="key-point" style="margin-top: 1.5rem;">
+                <strong>The sampling approach:</strong>
+                <ul>
+                    <li>Test LLMs on 3-5% of your counties</li>
+                    <li>Compare to reference data (or build reference from LLMs + validation)</li>
+                    <li>Identify which formats work well</li>
+                    <li>Scale up on similar formats, use traditional methods on others</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-top: 1.5rem;">What we can't do yet:</h3>
+            <ul>
+                <li>Predict which PDFs will work without testing</li>
+                <li>Eliminate verification step</li>
+                <li>Handle zero-vote rows reliably</li>
+            </ul>
+
+            <p style="margin-top: 1.5rem; font-size: 1.4rem; color: #4a9eff;"><strong>The real value:</strong> For formats that work, LLMs can produce reference-quality data in a fraction of the time. For formats that don't work, they tell you quickly—fail fast, fall back to proven methods.</p>
+
+            <p style="margin-top: 1rem; font-size: 1.3rem; color: #aaa;"><strong>Next steps:</strong> Understanding what makes Limestone different from Panola. Better prompting for zero-value rows. Hybrid approaches.</p>
+        </div>
+
+    </div>
+
+    <div class="slide-counter">
+        <span id="currentSlide">1</span> / <span id="totalSlides">9</span>
+    </div>
+
+    <div class="controls">
+        <button class="control-btn" id="prevBtn" onclick="previousSlide()">← Previous</button>
+        <button class="control-btn" id="nextBtn" onclick="nextSlide()">Next →</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = document.querySelectorAll('.slide').length;
+        
+        document.getElementById('totalSlides').textContent = totalSlides;
+
+        function updateSlidePosition() {
+            const container = document.getElementById('slidesContainer');
+            container.style.transform = `translateX(-${currentSlide * 100}vw)`;
+            
+            document.getElementById('currentSlide').textContent = currentSlide + 1;
+            
+            // Update button states
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                updateSlidePosition();
+            }
+        }
+
+        function previousSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlidePosition();
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowRight' || event.key === ' ') {
+                event.preventDefault();
+                nextSlide();
+            } else if (event.key === 'ArrowLeft') {
+                event.preventDefault();
+                previousSlide();
+            }
+        });
+
+        // Initialize
+        updateSlidePosition();
+    </script>
+</body>
+</html>
