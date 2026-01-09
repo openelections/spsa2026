@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLMs for Election Data Extraction</title>
+    <title>LLMs for Precinct Election Results Data Extraction</title>
     <style>
         * {
             margin: 0;
@@ -132,14 +132,10 @@
         }
 
         .image-placeholder {
-            background: #2a2a2a;
-            border: 2px dashed #444;
-            border-radius: 8px;
-            padding: 3rem;
             text-align: center;
-            margin: 1rem 0;
+            margin: 0.5rem 0;
             color: #888;
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         .controls {
@@ -242,22 +238,21 @@
         
         <!-- Slide 1: Title -->
         <div class="slide">
-            <h1>Can LLMs Parse Election PDFs?</h1>
-            <p class="subtitle">Testing Against Verified Reference Data</p>
+            <h1>Parsing Precinct Election Results PDFs Using LLMs</h1>
+            <p class="subtitle">Derek Willis, OpenElections</p>
             
-            <ul style="margin-top: 2rem;">
-                <li>The challenge: 254 Texas counties, 82 Mississippi counties, dozens of Pennsylvania counties</li>
+            <ul>
+                <li>PDFs of official precinct results from counties in Texas, Mississippi, and Pennsylvania</li>
                 <li>Each has unique PDF formats (image scans, multi-column layouts, varying structures)</li>
-                <li>Traditional approaches: OCR + manual cleanup, custom Python parsers, web UI tools</li>
-                <li>All expensive, slow, require expertise</li>
+                <li>Can LLMs be better/faster than OCR + manual cleanup or custom Python parsers?</li>
             </ul>
 
             <div class="image-placeholder">
-                [Image: Side-by-side comparison of 3 different county PDF formats (TX, MS, PA)]
+                <img src="combined_pdfs.png">
             </div>
 
             <p style="margin-top: 1rem;">
-                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">View sample PDFs →</a>
+                <a href="https://github.com/openelections/openelections-sources-tx/tree/master/2024/general" target="_blank">View sample PDFs →</a>
             </p>
         </div>
 
@@ -265,47 +260,47 @@
         <div class="slide">
             <h2>What We Tested</h2>
             
-            <table>
+            <p><strong>For Texas and Mississippi,</strong> we tested Claude Haiku 4.5, Claude Sonnet 4.5, Gemini 3 Flash, Gemini 2.5 Pro, and Gemini 3 Pro.</p>
+
+            <p style="margin-top: 1rem;"><strong>For Pennsylvania,</strong> we used Claude Sonnet 4.5 to write a custom Python parser.</p>
+            
+            <table style="margin-top: 1.5rem;">
                 <thead>
                     <tr>
                         <th>State</th>
                         <th>Sample Size</th>
-                        <th>Models</th>
                         <th>Baseline (Reference Data)</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><strong>Texas</strong></td>
-                        <td>8 counties (~3% of state)</td>
-                        <td>4 (Claude Haiku/Sonnet, Gemini Flash/Pro)</td>
+                        <td>8 counties from 2024 general</td>
                         <td>Web UI LLM OCR + Python parsers</td>
                     </tr>
                     <tr>
                         <td><strong>Mississippi</strong></td>
-                        <td>9-80 counties</td>
-                        <td>5 (+ GPT-5.1)</td>
+                        <td>9 counties</td>
                         <td>OCR + manual data manipulation</td>
                     </tr>
                     <tr>
                         <td><strong>Pennsylvania</strong></td>
-                        <td>Multiple counties</td>
-                        <td>Traditional parsers (comparison)</td>
+                        <td>Multiple counties from 2024 and 2025</td>
                         <td>Custom Python parsers (Electionware)</td>
                     </tr>
                 </tbody>
             </table>
 
             <div class="key-point">
-                <strong>Critical point:</strong> We're comparing LLM extraction to <strong>verified reference data</strong>, not raw PDFs. These reference files were already extracted and validated through multiple methods. We're measuring: can LLMs match results that took us weeks to produce?
+                We're comparing LLM extraction to <strong>verified data extracted last year</strong>, not raw PDFs. These reference files were validated through multiple methods. We're measuring: can LLMs match results that took us weeks to produce?
             </div>
 
             <p><strong>Sample selection:</strong> Deliberately chose counties with different formats, complexity levels (4-47 precincts), and layout styles.</p>
 
             <p style="margin-top: 1rem;">
-                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">TX extraction code</a> | 
-                <a href="https://github.com/openelections/openelections-data-ms" target="_blank">MS extraction code</a> | 
-                <a href="https://github.com/openelections/openelections-data-pa" target="_blank">PA parser code</a>
+                <a href="https://github.com/openelections/openelections-data-tx/blob/master/python-parsers/pdf_extractor.py" target="_blank">TX extraction code</a> | 
+                <a href="https://github.com/openelections/openelections-data-ms/blob/master/batch_extract_pdfs.py" target="_blank">MS extraction code</a> | 
+                <a href="https://github.com/openelections/openelections-data-pa/blob/master/parsers/electionware_precinct.py" target="_blank">PA parser code</a>
             </p>
         </div>
 
@@ -335,39 +330,34 @@
                         <td><strong>Claude Haiku</strong></td>
                         <td><span class="highlight">100%</span></td>
                         <td>Scurry County, TX</td>
-                        <td>Web UI + parsers</td>
+                        <td>LLM Web UI</td>
                     </tr>
                     <tr>
                         <td><strong>Claude Haiku</strong></td>
                         <td><span class="highlight">99.9%</span></td>
                         <td>Limestone County, TX (21 precincts)</td>
-                        <td>Web UI + parsers</td>
+                        <td>LLM Web UI</td>
                     </tr>
                 </tbody>
             </table>
 
             <div class="two-column">
                 <div>
-                    <h3>What this means:</h3>
+                    <h3>Takeaways</h3>
                     <ul>
-                        <li>LLMs can match months of manual work in hours</li>
-                        <li>2,495 votes verified across 8 TX counties: 77.8% match to reference</li>
-                        <li>Some counties: perfect match. Others: &lt;20% match</li>
+                        <li>In the right conditions, LLMs can do great work</li>
+                        <li>But they aren't perfect: 77.8% match across 8 TX counties</li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Success factors:</h3>
+                    <h3>Best predictors of success:</h3>
                     <ul>
                         <li>Clean, well-formatted PDFs (even if scanned)</li>
                         <li>Consistent table structures</li>
-                        <li>Standard precinct naming</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="key-point">
-                <strong>Critical insight:</strong> Same model against same reference standard: 100% accuracy on one county, 16% on another. Format drives everything.
-            </div>
         </div>
 
         <!-- Slide 4: Texas County-by-County Results -->
@@ -383,7 +373,7 @@
                         <th>Precincts</th>
                         <th>Votes Checked</th>
                         <th>Vote Accuracy</th>
-                        <th>Precinct Errors</th>
+                        <th>Precinct Name Errors</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -452,93 +442,81 @@
 
             <div class="two-column">
                 <div>
-                    <h3>Pattern: High Success</h3>
+                    <h3>High Success</h3>
                     <ul>
-                        <li>Scurry, Limestone: Clean layouts</li>
                         <li>Standard table structures</li>
                         <li>Consistent formatting</li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Pattern: Low Success</h3>
+                    <h3>Low Success</h3>
                     <ul>
                         <li>Panola: Many 0-vote candidates</li>
-                        <li>Vote misreads (233→227)</li>
                         <li>Same problems across models</li>
                     </ul>
                 </div>
             </div>
 
             <p style="margin-top: 1rem;">
-                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">Full Texas comparison report →</a>
+                <a href="https://github.com/openelections/openelections-data-tx/blob/master/LLM_EXTRACTION_CASE_STUDY.md" target="_blank">Full Texas comparison report →</a>
             </p>
         </div>
 
         <!-- Slide 5: What Breaks -->
         <div class="slide">
-            <h2>The Results - What Breaks</h2>
+            <h2>What Doesn't Work</h2>
             
             <h3>Common Failure Patterns When Comparing to Reference:</h3>
 
-            <div style="margin-top: 1rem;">
+            <div style="margin-top: 0.5rem;">
                 <p><strong>1. Missing zero-value rows</strong> (all models)</p>
                 <ul>
-                    <li>Reference data includes candidates with 0 votes</li>
-                    <li>LLMs consistently omit these</li>
-                    <li>San Saba County, TX: 6 write-in rows with 0 votes in reference, all missing</li>
+                    <li>Reference data includes candidates with 0 votes; LLMs consistently omit these</li>
                     <li>Panola County, TX: 6 minor party candidates with 0 votes, missing</li>
                 </ul>
 
-                <p style="margin-top: 0.8rem;"><strong>2. Incomplete extraction</strong> (especially Claude models)</p>
+                <p style="margin-top: 0.3rem;"><strong>2. Incomplete extraction</strong> (default max tokens)</p>
                 <ul>
-                    <li>Reference has 3,936 rows</li>
-                    <li>LLMs extracted only 3,131-3,697 rows</li>
+                    <li>Reference has 3,936 rows; LLMs extracted only 3,131-3,697 rows</li>
                     <li>Missing Supreme Court races in Jones, Lynn, Cottle counties</li>
                 </ul>
 
-                <p style="margin-top: 0.8rem;"><strong>3. Vote count errors</strong> (PDF-specific)</p>
+                <p style="margin-top: 0.3rem;"><strong>3. Vote count errors</strong> (PDF-specific)</p>
                 <ul>
                     <li>Panola County, TX: Claude Haiku <span class="warning">16.2%</span> match to reference (233→227)</li>
-                    <li>Jones County, TX: <span class="warning">&lt;14%</span> match across multiple models</li>
                     <li>Same counties fail across different models</li>
                 </ul>
 
-                <p style="margin-top: 0.8rem;"><strong>4. Precinct name OCR errors</strong> (all models)</p>
+                <p style="margin-top: 0.3rem;"><strong>4. Precinct name OCR errors</strong> (vertical vs horizontal)</p>
                 <ul>
                     <li>Mississippi: 2,898 precinct name errors vs. reference (Claude Haiku, 80 counties)</li>
                     <li>Texas: 0 precinct errors across 2,495 verified votes</li>
-                    <li>Fixable with validation scripts</li>
                 </ul>
             </div>
 
-            <div class="key-point" style="margin-top: 1.5rem;">
-                <strong>Key insight:</strong> When models disagree with reference data, the same problem counties appear consistently. This isn't random—it's tied to PDF characteristics we haven't fully identified.
+            <div class="key-point" style="margin-top: 0.5rem;">
+                When models disagree with reference data, the same problem counties appear consistently.
             </div>
-
-            <p style="margin-top: 1rem;">
-                <a href="https://github.com/openelections/openelections-data-tx" target="_blank">Detailed error analysis →</a>
-            </p>
         </div>
 
         <!-- Slide 6: Pennsylvania Parsers -->
         <div class="slide">
-            <h2>Pennsylvania - What Custom Parsers Actually Cost</h2>
+            <h2>Pennsylvania Custom PDF Parser Software</h2>
             
-            <h3>Baseline Method: Custom Python Parsers</h3>
+            <h3>Baseline Method: Extract Text and Parse</h3>
             
             <p>Electionware system (used by many PA counties):</p>
             <ul>
-                <li>Months of development, debugging, testing</li>
-                <li>Documented 10 major issues encountered during development</li>
+                <li>Documented significant issues encountered during development</li>
                 <li>Result: High-quality, reliable extraction... eventually</li>
             </ul>
 
-            <h3 style="margin-top: 1.5rem;">Issues discovered building the reference parsers:</h3>
+            <h3 style="margin-top: 0.5rem;">Issues discovered building the reference parsers:</h3>
             <div class="two-column">
                 <div>
                     <ul>
-                        <li>Hard-coded values → dynamic extraction (weeks of refactoring)</li>
-                        <li>Format variations between election years (2024 vs 2025 broke parsers)</li>
+                        <li>Hard-coded values (offices, parties, etc)</li>
+                        <li>Format variations between election years (small changes break code)</li>
                         <li>Missing party codes (DAR = cross-filing)</li>
                     </ul>
                 </div>
@@ -550,31 +528,25 @@
                 </div>
             </div>
 
-            <div class="key-point" style="margin-top: 1.5rem;">
-                <strong>The parser works great now.</strong> But:
+            <div class="key-point" style="margin-top: 0.5rem;">
+                <strong>The old parser works.</strong> But:
                 <ul>
                     <li>Required Python expertise</li>
-                    <li>Broke when format changed slightly</li>
                     <li>Not portable to other states</li>
-                    <li>Substantial upfront time investment</li>
                     <li>Ongoing maintenance for format changes</li>
                 </ul>
             </div>
 
-            <p style="margin-top: 1.5rem; font-size: 1.4rem;"><strong>LLM comparison:</strong> Parsers = high accuracy, high development cost. LLMs = variable accuracy, zero development cost.</p>
-
-            <p style="margin-top: 1rem; font-size: 1.4rem; color: #ffa94d;"><strong>Real question:</strong> If we're comparing LLMs to "verified reference data," what if the LLMs could have created that reference data faster?</p>
-
             <p style="margin-top: 1rem;">
-                <a href="https://github.com/openelections/openelections-data-pa" target="_blank">PA parser development guide →</a>
+                <a href="https://github.com/openelections/openelections-data-pa/blob/master/ELECTIONWARE_PARSER_GUIDE.md" target="_blank">PA parser development guide →</a>
             </p>
         </div>
 
         <!-- Slide 7: Verification -->
         <div class="slide">
-            <h2>Verification Strategies</h2>
+            <h2>Don't Trust, Verify</h2>
             
-            <p style="font-size: 1.4rem; margin-bottom: 1rem;">You can't just trust LLM output. Here's how we validate against reference:</p>
+            <p style="font-size: 1.4rem; margin-bottom: 0.5rem;">You can't just trust LLM output. Here's how we validate against reference:</p>
 
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
@@ -582,23 +554,18 @@
                     <ul>
                         <li>Vote count matching (what we measured)</li>
                         <li>Precinct name validation</li>
-                        <li>Candidate presence verification</li>
-                        <li>Identifies systematic vs. random errors</li>
                     </ul>
 
-                    <p style="margin-top: 0.8rem;"><strong>2. County-level total checks</strong></p>
+                    <p style="margin-top: 0.3rem;"><strong>2. County-level total checks</strong></p>
                     <ul>
                         <li>Extract precinct data with LLM</li>
                         <li>Compare sums to official county totals</li>
-                        <li>Catches missing races, incorrect vote counts</li>
-                        <li>Independent of reference data method</li>
                     </ul>
 
-                    <p style="margin-top: 0.8rem;"><strong>3. Multi-model extraction on samples</strong></p>
+                    <p style="margin-top: 0.3rem;"><strong>3. Multi-model extraction on samples</strong></p>
                     <ul>
                         <li>Run 2-3 models on representative counties</li>
                         <li>Where they agree, confidence is high</li>
-                        <li>Where they disagree, compare to reference</li>
                     </ul>
                 </div>
                 <div>
@@ -606,105 +573,73 @@
                     <ul>
                         <li>Row count checks (expected vs. actual)</li>
                         <li>Zero-vote pattern detection</li>
-                        <li>Race completeness verification</li>
                     </ul>
 
-                    <p style="margin-top: 0.8rem;"><strong>5. Targeted manual review</strong></p>
+                    <p style="margin-top: 0.3rem;"><strong>5. Targeted manual review</strong></p>
                     <ul>
                         <li>Focus on counties with low match rates (&lt;80%)</li>
                         <li>Spot-check high-confidence extractions (&gt;95%)</li>
-                        <li>Verify error patterns found in samples</li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="key-point" style="margin-top: 1.5rem;">
-                <strong>Key point:</strong> Having reference data let us measure accuracy. In production, you'd use methods 2-5.
             </div>
         </div>
 
         <!-- Slide 8: Deployment -->
         <div class="slide">
-            <h2>Real-World Deployment Recommendation</h2>
+            <h2>Recommendations</h2>
             
-            <h3>Production Strategy Based on Comparison to Reference:</h3>
-
             <div style="margin-top: 1rem;">
-                <p><strong>Tier 1: Replace existing extraction methods</strong> <span class="highlight">(95%+ match)</span></p>
+                <p><strong>Replace existing extraction methods</strong> <span class="highlight">(for clean formats)</span></p>
                 <ul>
                     <li>PDFs like Limestone, Scurry, San Saba (TX)</li>
-                    <li>Adams, Amite, Attala (MS with Gemini Flash/2.5 Pro)</li>
                     <li>Use LLMs instead of OCR + manual cleanup</li>
                     <li>Validate with county totals</li>
                 </ul>
 
-                <p style="margin-top: 1rem;"><strong>Tier 2: LLM as first pass</strong> <span style="background: #3a3a2a; padding: 0.2rem 0.5rem; border-radius: 4px;">(70-90% match)</span></p>
+                <p style="margin-top: 1rem;"><strong>LLM as first pass</strong> <span style="background: #3a3a2a; padding: 0.2rem 0.5rem; border-radius: 4px;">(for more complex formats)</span></p>
                 <ul>
-                    <li>Most TX/MS sample counties</li>
                     <li>Faster than manual, but needs verification</li>
-                    <li>Multi-model extraction for critical races</li>
+                    <li>Multi-model extraction</li>
                     <li>Systematic spot-checking</li>
-                </ul>
-
-                <p style="margin-top: 1rem;"><strong>Tier 3: Stick with custom parsers or manual</strong> <span class="warning">(&lt;70% match)</span></p>
-                <ul>
-                    <li>PDFs like Panola, Jones, Pike (consistent &lt;20% match)</li>
-                    <li>Format changes frequently (PA Electionware between years)</li>
-                    <li>Critical accuracy requirements</li>
-                    <li>Or: use LLMs with heavy manual verification</li>
                 </ul>
             </div>
 
             <div class="key-point" style="margin-top: 1.5rem;">
-                <strong>The value proposition:</strong>
-                <ul>
-                    <li>Good formats: LLMs can replace weeks of OCR + manual work</li>
-                    <li>Medium formats: LLMs reduce manual work significantly</li>
-                    <li>Bad formats: LLMs waste time, stick with proven methods</li>
-                </ul>
+                <strong>LLMs will not work well for some PDFs.</strong>
+                <p style="margin-top: 1rem;">Figuring out which ones is super important</p>
             </div>
         </div>
 
         <!-- Slide 9: Conclusions -->
         <div class="slide">
-            <h2>What This Actually Means</h2>
+            <h2>How You Should Use LLMs</h2>
             
-            <h3>What we learned comparing to verified data:</h3>
             <ul>
-                <li>Some PDF formats: LLMs match months of manual work <span class="highlight">(99-100%)</span></li>
-                <li>Other formats: LLMs can't match manual work <span class="warning">(&lt;20%)</span></li>
-                <li>Zero-value rows universally problematic across all models</li>
+                <li>Some PDF formats: LLMs match days/weeks of manual work</li>
+                <li>Zero-value rows problematic across most models</li>
                 <li>Format matters more than model sophistication</li>
             </ul>
 
-            <h3 style="margin-top: 1.5rem;">Cost-benefit analysis:</h3>
-            <ul>
-                <li>Mississippi OCR + manual: weeks of work per county</li>
-                <li>LLM extraction: minutes per county</li>
-                <li>If accuracy matches: massive time savings</li>
-                <li>If accuracy doesn't match: wasted effort</li>
-            </ul>
-
-            <div class="key-point" style="margin-top: 1.5rem;">
-                <strong>The sampling approach:</strong>
+            <div class="key-point" style="margin-top: 0.5rem;">
+                <strong>A sampling approach:</strong>
                 <ul>
                     <li>Test LLMs on 3-5% of your counties</li>
                     <li>Compare to reference data (or build reference from LLMs + validation)</li>
                     <li>Identify which formats work well</li>
-                    <li>Scale up on similar formats, use traditional methods on others</li>
                 </ul>
             </div>
 
-            <h3 style="margin-top: 1.5rem;">What we can't do yet:</h3>
+            <h3 style="margin-top: 0.5rem;">Workflow:</h3>
             <ul>
-                <li>Predict which PDFs will work without testing</li>
-                <li>Eliminate verification step</li>
-                <li>Handle zero-vote rows reliably</li>
+                <li>Claude Code</li>
+                <li>GitHub Copilot (academics get expanded access to models)</li>
             </ul>
 
-            <p style="margin-top: 1.5rem; font-size: 1.4rem; color: #4a9eff;"><strong>The real value:</strong> For formats that work, LLMs can produce reference-quality data in a fraction of the time. For formats that don't work, they tell you quickly—fail fast, fall back to proven methods.</p>
-
-            <p style="margin-top: 1rem; font-size: 1.3rem; color: #aaa;"><strong>Next steps:</strong> Understanding what makes Limestone different from Panola. Better prompting for zero-value rows. Hybrid approaches.</p>
+            <h3 style="margin-top: 0.5rem;">Questions?</h3>
+            <ul>
+                <li>openelections@gmail.com</li>
+                <li>Links to code/data at <a href="https://openelections.net/">OpenElections.net</a></li>
+            </ul>
         </div>
 
     </div>
