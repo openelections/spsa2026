@@ -436,10 +436,6 @@
                 </tbody>
             </table>
 
-            <div class="key-point">
-                <strong>Overall:</strong> 2,495 votes checked, <span class="medium">77.8%</span> accuracy, <strong>0</strong> precinct name errors
-            </div>
-
             <div class="two-column">
                 <div>
                     <h3>High Success</h3>
@@ -468,30 +464,33 @@
             
             <h3>Common Failure Patterns When Comparing to Reference:</h3>
 
-            <div style="margin-top: 0.5rem;">
-                <p><strong>1. Missing zero-value rows</strong> (all models)</p>
-                <ul>
-                    <li>Reference data includes candidates with 0 votes; LLMs consistently omit these</li>
-                    <li>Panola County, TX: 6 minor party candidates with 0 votes, missing</li>
-                </ul>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 0.5rem;">
+                <div>
+                    <p><strong>1. Missing zero-value rows</strong> (all models)</p>
+                    <ul>
+                        <li>Reference data includes candidates with 0 votes; LLMs consistently omit these</li>
+                        <li>Panola County, TX: 6 minor party candidates with 0 votes, missing</li>
+                    </ul>
 
-                <p style="margin-top: 0.3rem;"><strong>2. Incomplete extraction</strong> (default max tokens)</p>
-                <ul>
-                    <li>Reference has 3,936 rows; LLMs extracted only 3,131-3,697 rows</li>
-                    <li>Missing Supreme Court races in Jones, Lynn, Cottle counties</li>
-                </ul>
+                    <p style="margin-top: 0.3rem;"><strong>2. Incomplete extraction</strong> (default max tokens too small)</p>
+                    <ul>
+                        <li>Reference has 3,936 rows; LLMs extracted only 3,131-3,697 rows</li>
+                        <li>Missing Supreme Court races in Jones, Lynn, Cottle counties</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>3. Vote count errors</strong> (PDF-specific)</p>
+                    <ul>
+                        <li>Panola County, TX: Claude Haiku <span class="warning">16.2%</span> match to reference (233→227)</li>
+                        <li>Same counties fail across different models</li>
+                    </ul>
 
-                <p style="margin-top: 0.3rem;"><strong>3. Vote count errors</strong> (PDF-specific)</p>
-                <ul>
-                    <li>Panola County, TX: Claude Haiku <span class="warning">16.2%</span> match to reference (233→227)</li>
-                    <li>Same counties fail across different models</li>
-                </ul>
-
-                <p style="margin-top: 0.3rem;"><strong>4. Precinct name OCR errors</strong> (vertical vs horizontal)</p>
-                <ul>
-                    <li>Mississippi: 2,898 precinct name errors vs. reference (Claude Haiku, 80 counties)</li>
-                    <li>Texas: 0 precinct errors across 2,495 verified votes</li>
-                </ul>
+                    <p style="margin-top: 0.3rem;"><strong>4. Precinct name OCR errors</strong> (vertical vs horizontal)</p>
+                    <ul>
+                        <li>Mississippi: 2,898 precinct name errors vs. reference (Claude Haiku, 80 counties)</li>
+                        <li>Texas: 0 precinct errors across 2,495 verified votes</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="key-point" style="margin-top: 0.5rem;">
@@ -617,7 +616,7 @@
             <ul>
                 <li>Some PDF formats: LLMs match days/weeks of manual work</li>
                 <li>Zero-value rows problematic across most models</li>
-                <li>Format matters more than model sophistication</li>
+                <li>Format and prompts matter more than models, although models do matter</li>
             </ul>
 
             <div class="key-point" style="margin-top: 0.5rem;">

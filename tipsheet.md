@@ -12,6 +12,8 @@ You don't need to learn to code. LLMs can either:
 
 Both approaches: describe what you want + provide examples. LLM does the work.
 
+This [blog post](https://thescoop.org/archives/2025/06/09/how-openelections-uses-llms/) started me down this path.
+
 ## When to Use Which Approach
 
 **Image PDF Extraction:**
@@ -102,3 +104,9 @@ Wired: "I need to describe what I want and show examples. LLM handles the code."
 
 Your expertise: Understanding election data formats and validation  
 LLM's expertise: Writing and debugging code
+
+## Example: Scurry County, Texas
+
+* [Original Image PDF](https://github.com/openelections/openelections-sources-tx/blob/master/2024/general/2024%20Scurry%20County%2C%20TX%20precinct-level%20results.pdf)
+* [Prompt for models](https://github.com/openelections/openelections-data-tx/blob/master/python-parsers/pdf_extractor.py) (using Claude Haiku 4.5)
+* [CSV Result](https://github.com/openelections/openelections-data-tx/blob/master/test/20241105__tx__general__scurry__precinct.csv)
