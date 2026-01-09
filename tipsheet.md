@@ -25,9 +25,10 @@ Both approaches: describe what you want + provide examples. LLM does the work.
 ## Recommended Models
 
 **Best accuracy:** Gemini 2.5 Pro (99.1% on tested samples, $0.15-0.30/county)
-**Best value:** Gemini Flash (93.8% accuracy, $0.02-0.05/county)
 
-Start with Flash for testing. Switch to 2.5 Pro if needed.
+**Best value:** Gemini Flash 3 (93.8% accuracy, $0.02-0.05/county)
+
+Start with Flash for testing. Switch to 2.5  or 3 Pro if needed.
 
 ## Image PDF Extraction: Critical Prompt Elements
 
@@ -40,14 +41,14 @@ Start with Flash for testing. Switch to 2.5 Pro if needed.
 
 **Most common failure:** Not mentioning zero-vote candidates (models often skip them by default)
 
-**You might need to set max tokens to 48000 on some models**
+**You might need to set max tokens to a higher limit on some models**
 
 ## Custom Parser: How to Get LLM to Write One
 
 **You provide:**
 - Sample PDF
 - CSV example showing exactly what output you want
-- Description of special cases
+- Description of special cases and how to handle them
 
 **LLM provides:**
 - Complete working Python script
@@ -75,31 +76,25 @@ Check that CSV handles:
 - All races (especially those at end of PDF)
 - Unusual races like judicial retention or ballot initiatives
 
-## Real Results from Testing Across States
-
-**Direct extraction successes:**
-- 100% accuracy: Scurry County, TX (11 precincts, 321 votes)
-- 99.9% accuracy: Limestone County, TX (21 precincts, 870 votes)
-- 99.1% average: 9 MS counties with Gemini 2.5 Pro
-
-**Direct extraction failures:**
-- 16.2% accuracy: Panola County, TX
-- 13-14% accuracy: Jones County, TX
-- Same counties failed across all models (format issue, not model choice)
-
-Format matters more than model sophistication
-
 ## Cost for 100 Counties
 
 - Gemini 2.5 Pro direct extraction: $15-30
-- Gemini Flash direct extraction: $2-5
+- Gemini 3 Flash direct extraction: $2-5
 
-## When LLMs Don't Work
+## When LLMs Don't Work Well
 
-TKTKTK
+- Vertically-oriented precinct names
+- Handwritten documents (although this is changing!)
+- Documents containing multiple formats
+
+## Getting Started
+
+Sign up for the [education benefits from GitHub](https://github.com/education/) and enable Copilot. That will give you greater access to fronter models for free (with monthly limits). Your students can do the same!
+
+If you have some funding, Claude Code is an excellent tool to build software with, and you can set the terms of how much it does with or without your direct control.
 
 ## You Don't Need to Learn to Code
-## You Need to Learn to Evaluate the Results
+### You Need to Learn to Evaluate the Results
 
 Tired: "I need to learn Python to process these PDFs"
 
