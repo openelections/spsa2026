@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPSA 2026 Conference Schedule</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .filters {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        select, input[type="text"] {
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+        select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        input[type="text"] {
+            width: 100%;
+        }
+
+        .stats {
+            background: #f8f9fa;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.95em;
+            color: #666;
+        }
+
+        .sessions {
+            display: grid;
+            gap: 20px;
+        }
+
+        .session-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .session-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .session-header {
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 12px;
+            margin-bottom: 15px;
+        }
+
+        .session-id {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        .session-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 8px 0;
+        }
+
+        .session-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .meta-item::before {
+            content: '•';
+            margin-right: 8px;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .meta-item:first-child::before {
+            content: '';
+            margin: 0;
+        }
+
+        .session-topic {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-top: 8px;
+        }
+
+        .session-body {
+            margin-top: 15px;
+        }
+
+        .section-title {
+            font-weight: 700;
+            color: #444;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        .chair {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+        }
+
+        .person-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .person-affiliation {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .paper {
+            background: #fafafa;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            border-left: 3px solid #e0e0e0;
+        }
+
+        .paper-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+
+        .authors {
+            margin-top: 6px;
+        }
+
+        .author {
+            margin-left: 15px;
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 3px;
+        }
+
+        .discussants {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .discussant {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid #ffa726;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+            font-size: 1.1em;
+        }
+
+        .clear-filters {
+            background: #e0e0e0;
+            color: #555;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            transition: background 0.3s;
+            margin-top: 10px;
+        }
+
+        .clear-filters:hover {
+            background: #d0d0d0;
+        }
+
+        @media (max-width: 768px) {
+            .filter-row {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            .session-meta {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SPSA 2026 Conference</h1>
+            <p>New Orleans, Louisiana • January 14-17, 2026</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="filters">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="day-filter">Day</label>
+                    <select id="day-filter">
+                        <option value="">All Days</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="time-filter">Start Time</label>
+                    <select id="time-filter">
+                        <option value="">All Times</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="search">Search</label>
+                    <input type="text" id="search" placeholder="Search topics, titles, people...">
+                </div>
+            </div>
+
+            <button class="clear-filters" id="clear-filters">Clear All Filters</button>
+
+            <div class="stats" id="stats">Loading sessions...</div>
+        </div>
+
+        <div class="sessions" id="sessions">
+            <div class="no-results">Loading conference sessions...</div>
+        </div>
+    </div>
+
+    <script>
+        let allSessions = [];
+        let filteredSessions = [];
+
+        // Load all session data
+        async function loadSessions() {
+            try {
+                const days = ['thursday', 'friday', 'saturday'];
+                const promises = days.map(day =>
+                    fetch(`sessions_${day}.json`).then(r => r.json())
+                );
+
+                const results = await Promise.all(promises);
+                allSessions = results.flat();
+
+                // Populate time filter
+                populateTimeFilter();
+
+                // Initial display
+                filterSessions();
+            } catch (error) {
+                console.error('Error loading sessions:', error);
+                document.getElementById('sessions').innerHTML =
+                    '<div class="no-results">Error loading conference data. Please refresh the page.</div>';
+            }
+        }
+
+        // Populate time filter with unique start times
+        function populateTimeFilter() {
+            const times = [...new Set(allSessions.map(s => s.start_time))].sort();
+            const timeFilter = document.getElementById('time-filter');
+
+            times.forEach(time => {
+                if (time) {
+                    const option = document.createElement('option');
+                    option.value = time;
+                    option.textContent = time;
+                    timeFilter.appendChild(option);
+                }
+            });
+        }
+
+        // Filter sessions based on current filter values
+        function filterSessions() {
+            const dayFilter = document.getElementById('day-filter').value.toLowerCase();
+            const timeFilter = document.getElementById('time-filter').value;
+            const searchTerm = document.getElementById('search').value.toLowerCase().trim();
+
+            filteredSessions = allSessions.filter(session => {
+                // Day filter
+                if (dayFilter && session.day.toLowerCase() !== dayFilter) {
+                    return false;
+                }
+
+                // Time filter
+                if (timeFilter && session.start_time !== timeFilter) {
+                    return false;
+                }
+
+                // Search filter
+                if (searchTerm) {
+                    const searchableText = [
+                        session.topic,
+                        session.session_title,
+                        session.chair?.name || '',
+                        session.chair?.affiliation || '',
+                        ...session.participants.flatMap(p => [
+                            p.paper_title,
+                            ...p.authors.map(a => `${a.name} ${a.affiliation}`)
+                        ]),
+                        ...session.discussants.map(d => `${d.name} ${d.affiliation}`)
+                    ].join(' ').toLowerCase();
+
+                    if (!searchableText.includes(searchTerm)) {
+                        return false;
+                    }
+                }
+
+                return true;
+            });
+
+            displaySessions();
+            updateStats();
+        }
+
+        // Display filtered sessions
+        function displaySessions() {
+            const container = document.getElementById('sessions');
+
+            if (filteredSessions.length === 0) {
+                container.innerHTML = '<div class="no-results">No sessions match your filters. Try adjusting your search criteria.</div>';
+                return;
+            }
+
+            container.innerHTML = filteredSessions.map(session => `
+                <div class="session-card">
+                    <div class="session-header">
+                        <div>
+                            <span class="session-id">${session.session_id}</span>
+                            ${session.topic ? `<span class="session-topic">${session.topic}</span>` : ''}
+                        </div>
+                        <h2 class="session-title">${session.session_title}</h2>
+                        <div class="session-meta">
+                            <div class="meta-item">${session.day}</div>
+                            <div class="meta-item">${session.start_time} - ${session.end_time}</div>
+                            <div class="meta-item">${session.room}${session.building ? ' - ' + session.building : ''}</div>
+                        </div>
+                    </div>
+
+                    <div class="session-body">
+                        ${session.chair && session.chair.name ? `
+                            <div class="section-title">Chair</div>
+                            <div class="chair">
+                                <div class="person-name">${session.chair.name}</div>
+                                ${session.chair.affiliation ? `<div class="person-affiliation">${session.chair.affiliation}</div>` : ''}
+                            </div>
+                        ` : ''}
+
+                        ${session.participants && session.participants.length > 0 ? `
+                            <div class="section-title">Papers</div>
+                            ${session.participants.map(paper => `
+                                <div class="paper">
+                                    <div class="paper-title">${paper.paper_title}</div>
+                                    <div class="authors">
+                                        ${paper.authors.map(author => `
+                                            <div class="author">
+                                                <span class="person-name">${author.name}</span>${author.affiliation ? `, <span class="person-affiliation">${author.affiliation}</span>` : ''}
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        ` : ''}
+
+                        ${session.discussants && session.discussants.length > 0 ? `
+                            <div class="section-title">Discussant${session.discussants.length > 1 ? 's' : ''}</div>
+                            <div class="discussants">
+                                ${session.discussants.map(discussant => `
+                                    <div class="discussant">
+                                        <span class="person-name">${discussant.name}</span>${discussant.affiliation ? `, <span class="person-affiliation">${discussant.affiliation}</span>` : ''}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Update statistics display
+        function updateStats() {
+            const totalPapers = filteredSessions.reduce((sum, s) => sum + s.participants.length, 0);
+            document.getElementById('stats').textContent =
+                `Showing ${filteredSessions.length} session${filteredSessions.length !== 1 ? 's' : ''} with ${totalPapers} paper${totalPapers !== 1 ? 's' : ''}`;
+        }
+
+        // Clear all filters
+        function clearFilters() {
+            document.getElementById('day-filter').value = '';
+            document.getElementById('time-filter').value = '';
+            document.getElementById('search').value = '';
+            filterSessions();
+        }
+
+        // Event listeners
+        document.getElementById('day-filter').addEventListener('change', filterSessions);
+        document.getElementById('time-filter').addEventListener('change', filterSessions);
+        document.getElementById('search').addEventListener('input', filterSessions);
+        document.getElementById('clear-filters').addEventListener('click', clearFilters);
+
+        // Initialize
+        loadSessions();
+    </script>
+</body>
+</html>

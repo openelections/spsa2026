@@ -1,0 +1,5888 @@
+[
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "7:30am",
+    "end_time": "6:30pm",
+    "room": "Warwick",
+    "building": "3rd    Key entry only. Come to the SPSA Office for assistance accessing the room.",
+    "topic": "Meetings",
+    "session_title": "Lactation Room - Thursday",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Bridge",
+    "building": "Riverside",
+    "topic": "Undergraduate Research",
+    "session_title": "Comparative Authoritarianism, Propaganda, and Political Legitimacy",
+    "chair": {
+      "name": "Adrien Halliez",
+      "affiliation": "Drake University"
+    },
+    "participants": [
+      {
+        "paper_title": "Forging Volksgemeinschaft: Industrial and Technological Imagery in Nazi Propaganda Posters",
+        "authors": [
+          {
+            "name": "Aiden Robert Martin",
+            "affiliation": "Embry-Riddle Aeronautical University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Informal Jubao (Reporting) in Contemporary China: Navigating the Complexities of State Control and Public Dissent",
+        "authors": [
+          {
+            "name": "Chelsea Wang",
+            "affiliation": "University of Toronto"
+          }
+        ]
+      },
+      {
+        "paper_title": "Right-wing Politics and Reframing Legitimacy",
+        "authors": [
+          {
+            "name": "Samuel Edward VandenBerge",
+            "affiliation": "Tennessee Technological University"
+          }
+        ]
+      },
+      {
+        "paper_title": "\"The Confederate Flag in Comparative Politics\"",
+        "authors": [
+          {
+            "name": "Darcy Anne Phillips",
+            "affiliation": "Wofford College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Trust and Political Engagement among Generation Z: A Comparative Study of Japan, South Korea, and Taiwan (2010–2025)",
+        "authors": [
+          {
+            "name": "Shivani Vakharia",
+            "affiliation": "Student"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Adrien Halliez",
+        "affiliation": "Drake University"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Cambridge",
+    "building": "2nd",
+    "topic": "Comparative Politics of Developing Areas",
+    "session_title": "Authoritarian Strategies for Repression and Control",
+    "chair": {
+      "name": "Ebenezer Oluwaseun Makinde",
+      "affiliation": "Tulane University"
+    },
+    "participants": [
+      {
+        "paper_title": "Killing Comrades: Factionally Targeted Purges and Control Over the Communist Red Army in China",
+        "authors": [
+          {
+            "name": "Xingchen Lan",
+            "affiliation": "New York University"
+          },
+          {
+            "name": "Bokai Qi",
+            "affiliation": "New York University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Protectors of the Party: Single-Party Dominance and the Political Logic of Police Repression in Post- Apartheid South Africa",
+        "authors": [
+          {
+            "name": "Winston Ardoin",
+            "affiliation": "University of North Carolina at Chapel Hill"
+          }
+        ]
+      },
+      {
+        "paper_title": "Signals of Alignment: Party Building, Government Support, and Financial Efficiency in China's Charities",
+        "authors": [
+          {
+            "name": "Lin Song",
+            "affiliation": "The Chinese University of Hong Kong, Shenzhen"
+          }
+        ]
+      },
+      {
+        "paper_title": "From Boardrooms to Barracks: Privatizing Military Businesses in Argentina and Indonesia",
+        "authors": [
+          {
+            "name": "Prajakta Gupte",
+            "affiliation": "University of Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "Under what conditions does public support for strongman rule increase in African countries?",
+        "authors": [
+          {
+            "name": "Toyosi R Ajibade",
+            "affiliation": "University of Central Florida"
+          },
+          {
+            "name": "David Akindoyin",
+            "affiliation": "Florida State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Xingchen Lan",
+        "affiliation": "New York University"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Canal",
+    "building": "3rd Floor",
+    "topic": "Public Opinion",
+    "session_title": "Attitudes about Race and Immigration",
+    "chair": {
+      "name": "Jesse Hessler Rhodes",
+      "affiliation": "University of Massachusetts Amherst"
+    },
+    "participants": [
+      {
+        "paper_title": "Geographic Framing and Immigration Attitudes: How Local Versus National Perspectives Shape Public Opinion",
+        "authors": [
+          {
+            "name": "Megan Dias",
+            "affiliation": "Cornell University"
+          },
+          {
+            "name": "Connor William Dye",
+            "affiliation": "University of Texas at San Antonio"
+          }
+        ]
+      },
+      {
+        "paper_title": "Immigrants, Taxes, and Health Care: Does Correcting Misinformation Increase Public Support for Expanding Access to Health Insurance?",
+        "authors": [
+          {
+            "name": "Madeline Sawyer",
+            "affiliation": "Harvard University"
+          },
+          {
+            "name": "Benjamin Carter",
+            "affiliation": "University of Alabama"
+          }
+        ]
+      },
+      {
+        "paper_title": "Leading or following? Presidential rhetoric on immigration, public opinion, and partisan politics strategy",
+        "authors": [
+          {
+            "name": "Farzana Zinnat",
+            "affiliation": "Auburn University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Racial Attitudes Effect on Vote Choice",
+        "authors": [
+          {
+            "name": "George D Quinn",
+            "affiliation": "Rutgers University"
+          },
+          {
+            "name": "Zachary T Winograd",
+            "affiliation": "University of Michigan"
+          }
+        ]
+      },
+      {
+        "paper_title": "Racial Attitudes, Elite Discourse, and Party Polarization in Shaping U.S. Immigration Opinions",
+        "authors": [
+          {
+            "name": "Cindy Osei Agyemang",
+            "affiliation": "West Virginia University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Spread of Conspiracy Narratives among the 45+ Generation: Causes, Risk Factors, and Prevention",
+        "authors": [
+          {
+            "name": "Karin Liebhart",
+            "affiliation": "University of Vienna"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Angel Saavedra Cisneros",
+        "affiliation": "Bowdoin College"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Churchill B1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #7: Autocratic Legislatures",
+    "chair": {
+      "name": "Eddy Malesky",
+      "affiliation": "Duke University"
+    },
+    "participants": [
+      {
+        "paper_title": "Assembly dissolution and snap elections in authoritarian regimes: Evidence from the Kuwait National Assembly",
+        "authors": [
+          {
+            "name": "Erin York",
+            "affiliation": "Vanderbilt University"
+          },
+          {
+            "name": "Daniel L Tavana",
+            "affiliation": "Penn State"
+          }
+        ]
+      },
+      {
+        "paper_title": "Opposition defections and autocratic control: Evidence from Cambodia",
+        "authors": [
+          {
+            "name": "Oren Samet",
+            "affiliation": "Berkeley"
+          },
+          {
+            "name": "Soksamphoas Im",
+            "affiliation": "Stanford University"
+          },
+          {
+            "name": "Lucy Right",
+            "affiliation": "Yale University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Eddy Malesky",
+        "affiliation": "Duke University"
+      },
+      {
+        "name": "Anne Meng",
+        "affiliation": "University of Virginia"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Churchill B2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #8: Political and Human Behavior in Crises",
+    "chair": {
+      "name": "Ashley Ross",
+      "affiliation": "Texas A&M University at Galveston"
+    },
+    "participants": [
+      {
+        "paper_title": "When the Tsunami Comes at Night: Environmental and Social Predictors of Evacuation Behavior",
+        "authors": [
+          {
+            "name": "Tristan Wu",
+            "affiliation": "University of North Texas"
+          },
+          {
+            "name": "Alex Greer",
+            "affiliation": "University at Albany"
+          },
+          {
+            "name": "Yuki Li",
+            "affiliation": "Skidmore College"
+          },
+          {
+            "name": "Hideyuki Shiroshita",
+            "affiliation": "Kansai University"
+          }
+        ]
+      },
+      {
+        "paper_title": "No relief: Why do aid - dependent states fail to seek humanitarian aid?",
+        "authors": [
+          {
+            "name": "Allison Grossman",
+            "affiliation": "Tulane University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Windfall or Washout? Disaster Relief, Corruption, & Candidate Quality in Local Governments",
+        "authors": [
+          {
+            "name": "Gavin Kiger",
+            "affiliation": "Emory University"
+          }
+        ]
+      },
+      {
+        "paper_title": "A Model of Culpability and Politician's Crisis Response: Over - reaction and Under - reaction",
+        "authors": [
+          {
+            "name": "Aaron Du",
+            "affiliation": "Washington University in St. Louis"
+          }
+        ]
+      },
+      {
+        "paper_title": "Storms and Ballots: The Electoral Consequences of Tropical Cyclones in Malawi",
+        "authors": [
+          {
+            "name": "Jack Fernandes",
+            "affiliation": "Ohio State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Courtney Page-Tan",
+        "affiliation": "Indiana University Indianapolis"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Churchill D",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #1: Election Data, Methods, and Policy",
+    "chair": {
+      "name": "Joshua Ferrer",
+      "affiliation": "American University"
+    },
+    "participants": [
+      {
+        "paper_title": "Using Large Language Models for Election Data Processing: A Case Study from OpenElections",
+        "authors": [
+          {
+            "name": "Derek Willis",
+            "affiliation": "OpenElections"
+          }
+        ]
+      },
+      {
+        "paper_title": "Overview of Ballot Data Availability and Quality Over the Past 10 Years",
+        "authors": [
+          {
+            "name": "Natalie Wingard",
+            "affiliation": "The Center for Tech and Civic Life"
+          }
+        ]
+      },
+      {
+        "paper_title": "VREAD+: State Election Laws, 1972 - 2020: Documentation and Validity",
+        "authors": [
+          {
+            "name": "Jan Leighley",
+            "affiliation": "National Science Foundation"
+          },
+          {
+            "name": "Ryan Moore",
+            "affiliation": "American University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Interest Groups, Election Officials, and the Multiple Streams of State Election Policy",
+        "authors": [
+          {
+            "name": "Joseph Loffredo",
+            "affiliation": "MIT"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Paul Gronke",
+        "affiliation": "Reed College"
+      },
+      {
+        "name": "A panel discussing election data",
+        "affiliation": "methods, and policy."
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Commerce",
+    "building": "3rd",
+    "topic": "International Conflict and Security",
+    "session_title": "Alliances",
+    "chair": {
+      "name": "David Siroky",
+      "affiliation": "University of Florida"
+    },
+    "participants": [
+      {
+        "paper_title": "Arming Authoritarianism: How U.S. Arms Transfers Enhances Egypt’s Internal Coercive Capacity From 2013",
+        "authors": [
+          {
+            "name": "Minyi Jiang",
+            "affiliation": "American University in Cairo"
+          }
+        ]
+      },
+      {
+        "paper_title": "Between Sovereignty and Submission: Why Authoritarian Regimes Align with Great Powers",
+        "authors": [
+          {
+            "name": "Shaarif Sameer",
+            "affiliation": "University of Utah"
+          }
+        ]
+      },
+      {
+        "paper_title": "Standing with Israel? U.S. Foreign Policy and the Security Trilemma in the Middle East",
+        "authors": [
+          {
+            "name": "Albert Wolf",
+            "affiliation": "Habib"
+          }
+        ]
+      },
+      {
+        "paper_title": "Training Tactics: A Global Database of U.S. Foreign Military Training (2000–2019)",
+        "authors": [
+          {
+            "name": "Bailey Nicole Sellers",
+            "affiliation": "Flagler College"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "David Siroky",
+        "affiliation": "University of Florida"
+      },
+      {
+        "name": "Valery Dzutsati",
+        "affiliation": "Augusta University"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Durham",
+    "building": "3rd Floor",
+    "topic": "Race and Ethnicity",
+    "session_title": "Systemic Racism, Representation and their Manifestations, Past and Present",
+    "chair": {
+      "name": "Andra Gillespie",
+      "affiliation": "Emory University"
+    },
+    "participants": [
+      {
+        "paper_title": "Connectivity and Contention: How Broadband Access Shapes Racial Attitudes",
+        "authors": [
+          {
+            "name": "Marc Etter",
+            "affiliation": "New York University"
+          },
+          {
+            "name": "Bryant James Moy",
+            "affiliation": "New York University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Firm diversity and social corporate political activity",
+        "authors": [
+          {
+            "name": "Ananya Hariharan",
+            "affiliation": "UCLA"
+          }
+        ]
+      },
+      {
+        "paper_title": "Systemic Racism Vs. Black Americans In the South",
+        "authors": [
+          {
+            "name": "McKenzie Mariah Hill",
+            "affiliation": "Student"
+          }
+        ]
+      },
+      {
+        "paper_title": "Who Speaks for Sovereignty? Messenger Effects on the McGirt v. Oklahoma Decision",
+        "authors": [
+          {
+            "name": "Elise Blasingame",
+            "affiliation": "Oxford College of Emory University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Andra Gillespie",
+        "affiliation": "Emory University"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Kobacoff",
+    "building": "",
+    "topic": "Political Methodology",
+    "session_title": "AI, LLMs, and Big Data: Advances and Applications",
+    "chair": {
+      "name": "Naim Bro",
+      "affiliation": "Adolfo Ibanez University"
+    },
+    "participants": [
+      {
+        "paper_title": "A Review of Information Criteria and a New Information Criterion for Machine Learning with Big Data}",
+        "authors": [
+          {
+            "name": "Jeff Gill",
+            "affiliation": "American. University"
+          },
+          {
+            "name": "Xinyuan Yang",
+            "affiliation": "American University"
+          }
+        ]
+      },
+      {
+        "paper_title": "From Metrics to Oversight: A Unified Pipeline for Generative AI Evaluation",
+        "authors": [
+          {
+            "name": "Hyein Ko",
+            "affiliation": "Case Western Reserve University"
+          },
+          {
+            "name": "Yuehong Cassandra Tai",
+            "affiliation": "Pennsylvania State University"
+          },
+          {
+            "name": "Nora Webb Williams",
+            "affiliation": "Meta"
+          }
+        ]
+      },
+      {
+        "paper_title": "Digital Twins in Congress: Using Large Language Models to Predict Legislative Votes in Chile",
+        "authors": [
+          {
+            "name": "Naim Bro",
+            "affiliation": "Adolfo Ibanez University"
+          },
+          {
+            "name": "Andres Abeliuk",
+            "affiliation": "University of Chile"
+          },
+          {
+            "name": "Bosley Mitchell",
+            "affiliation": "National Center for Artificial Intelligence (CENIA)"
+          },
+          {
+            "name": "Sergio Toro",
+            "affiliation": "Universidad Mayor"
+          },
+          {
+            "name": "Juan Pablo Luna",
+            "affiliation": "McGill University"
+          },
+          {
+            "name": "Benjamin Palacios",
+            "affiliation": "Adolfo Ibanez University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Naim Bro",
+        "affiliation": "Adolfo Ibanez University"
+      },
+      {
+        "name": "Yuehong Cassandra Tai",
+        "affiliation": "Pennsylvania State University"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Newberry",
+    "building": "3rd",
+    "topic": "Human Rights",
+    "session_title": "Human Rights Compliance and Avoidance",
+    "chair": {
+      "name": "Rebecca Reid",
+      "affiliation": "University of Texas at El Paso"
+    },
+    "participants": [
+      {
+        "paper_title": "National Prevention Mechanism Design Choices and Human Rights Treaty Compliance",
+        "authors": []
+      },
+      {
+        "paper_title": "Dagmar Heintze, The University of Texas at Dallas",
+        "authors": []
+      },
+      {
+        "paper_title": "Autocratic time horizons and human rights treaty engagement",
+        "authors": []
+      },
+      {
+        "paper_title": "Cody Eldredge, Oakland University",
+        "authors": []
+      },
+      {
+        "paper_title": "Megan Shannon, University of Colorado Boulder",
+        "authors": []
+      },
+      {
+        "paper_title": "Kelebogile Zvobgo, William and Mary",
+        "authors": []
+      },
+      {
+        "paper_title": "Authoritarian Legalism and Strategies of Repression",
+        "authors": []
+      },
+      {
+        "paper_title": "Wonmin Hong, Louisiana State University",
+        "authors": []
+      },
+      {
+        "paper_title": "Does Race Affect Judicial-State Cooperation? Examining the Effects of Intersectionality of Race and",
+        "authors": []
+      },
+      {
+        "paper_title": "Asylum in ECtHR Decisions on European Union Asylum Policy",
+        "authors": []
+      },
+      {
+        "paper_title": "Therese Nicole Franklin, USC",
+        "authors": []
+      },
+      {
+        "paper_title": "After the Pressure: When Do Civil and Political Rights Improve After Sanctions Are Lifted?",
+        "authors": []
+      },
+      {
+        "paper_title": "Dongan Tan, Texas Tech University",
+        "authors": []
+      },
+      {
+        "paper_title": "Hoan La, Texas Tech University",
+        "authors": []
+      },
+      {
+        "paper_title": "From Allies to Neighbors: Resettlement Outcomes for Afghan Allies across U.S. Visa Pathways",
+        "authors": []
+      },
+      {
+        "paper_title": "Narayani Sritharan, William & Mary",
+        "authors": []
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Rebecca Reid",
+        "affiliation": "University of Texas at El Paso"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Norwich",
+    "building": "3rd   Participants",
+    "topic": "Environmental Politics and Policy",
+    "session_title": "Regulation and the Environment: Gaining New Imperatives and Losing Old Perspectives",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "9:15am",
+    "room": "Parish",
+    "building": "3rd Floor",
+    "topic": "American Political Development",
+    "session_title": "Institutions, Rights, and Social Conflict in American Political Development",
+    "chair": {
+      "name": "Ayana Best",
+      "affiliation": "Howard University"
+    },
+    "participants": [
+      {
+        "paper_title": "Counter-Culture Education: The Origins and Consequences of the Localized American Education System",
+        "authors": [
+          {
+            "name": "Amanda S Chen",
+            "affiliation": "Cornell University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Dues and Degrees: Graduate Student Unionism in the Development of American Labor Politics.",
+        "authors": [
+          {
+            "name": "Tessa Barber",
+            "affiliation": "University of South Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "Prejudice Guns: The affects of co-ethnic bias on the support of the Second Amendment amongst southern Americans.",
+        "authors": [
+          {
+            "name": "Brittany Pryor Jones",
+            "affiliation": "UCLA"
+          }
+        ]
+      },
+      {
+        "paper_title": "Reimagining Public Safety",
+        "authors": [
+          {
+            "name": "Rebecca Urkov Thorpe",
+            "affiliation": "University of Washington"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Ayana Best",
+        "affiliation": "Howard University"
+      }
+    ]
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:00am",
+    "end_time": "6:00pm",
+    "room": "Windsor",
+    "building": "3rd",
+    "topic": "Meetings",
+    "session_title": "SPSA Office Thursday",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2100",
+    "day": "Thursday",
+    "start_time": "8:30am",
+    "end_time": "11:00am",
+    "room": "River Room",
+    "building": "",
+    "topic": "Meetings",
+    "session_title": "Executive Council Meeting I",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:00am",
+    "end_time": "4:00pm",
+    "room": "3rd Floor",
+    "building": "",
+    "topic": "Meetings",
+    "session_title": "Exhibit Area - Thursday",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Bridge",
+    "building": "Riverside",
+    "topic": "Undergraduate Research",
+    "session_title": "Democratic Development, Civic Engagement, and Education",
+    "chair": {
+      "name": "Clarissa Peterson",
+      "affiliation": "The University of the South"
+    },
+    "participants": [
+      {
+        "paper_title": "Examining the Role of Civic Education in Promoting Civil Discourse and Sustaining Democracy",
+        "authors": [
+          {
+            "name": "Charles Richard Benfanti",
+            "affiliation": "Christopher Newport University"
+          }
+        ]
+      },
+      {
+        "paper_title": "From The Recording Booth To The Voting Booth: How Music Impacts The Vote",
+        "authors": [
+          {
+            "name": "Gabrielle Olivia-Rae Hoskins",
+            "affiliation": "North Carolina A&T State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The great divide in American politics and the rise of the independent party",
+        "authors": [
+          {
+            "name": "Ethan Sedlak",
+            "affiliation": "University of Central Florida"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Clarissa Peterson",
+        "affiliation": "The University of the South"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Cambridge",
+    "building": "2nd",
+    "topic": "Comparative Politics of Developing Areas",
+    "session_title": "Democratic Transitions",
+    "chair": {
+      "name": "Michael Touchton",
+      "affiliation": "University of Miami"
+    },
+    "participants": [
+      {
+        "paper_title": "Democratic Resilience: Subnational backstop for Well-being in Brazil",
+        "authors": [
+          {
+            "name": "Michael Touchton",
+            "affiliation": "University of Miami"
+          }
+        ]
+      },
+      {
+        "paper_title": "Generational Gaps and Populist Horizons: Rethinking Democracy in Africa’s Youth-Majority Societies",
+        "authors": [
+          {
+            "name": "Angela Danso Gyane",
+            "affiliation": "University of Missouri-Columbia"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Memory of Violence that Sustains Democracy: Evidence from the Gwangju 5.18 in South Korea",
+        "authors": [
+          {
+            "name": "Bonhoon Koo",
+            "affiliation": "University of Houston"
+          }
+        ]
+      },
+      {
+        "paper_title": "Global Democratic Recession: Social and Political factors behind Pakistan’s struggle for Consolidation",
+        "authors": [
+          {
+            "name": "Rabia Sadiq",
+            "affiliation": "Georgia State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Impact of External Intervention on the Failure of Consolidation of Democracy in Afghanistan",
+        "authors": [
+          {
+            "name": "Homayun Arian",
+            "affiliation": "Western Michigan University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Lynn M. Maurer",
+        "affiliation": "Lamar University"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Canal",
+    "building": "3rd Floor",
+    "topic": "Public Opinion",
+    "session_title": "Economic Voting",
+    "chair": {
+      "name": "Emily Anne West",
+      "affiliation": "Assistant Professor, University of Pittsburgh"
+    },
+    "participants": [
+      {
+        "paper_title": "Economic Insecurity and Presidential Approval in Uncertain Times: A View from Census PULSE",
+        "authors": [
+          {
+            "name": "Ian Anson",
+            "affiliation": "UMBC"
+          },
+          {
+            "name": "Timothy Hellwig",
+            "affiliation": "University at Buffalo"
+          }
+        ]
+      },
+      {
+        "paper_title": "How Does Exposure to Economic Difficulties During Formative Years Influence Late-Life Economic Attitudes?",
+        "authors": [
+          {
+            "name": "YANG SONG",
+            "affiliation": "The Penn State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "In Search of the Party of the People: Vanishing Class-based Party Images in American Politics",
+        "authors": [
+          {
+            "name": "Stephen Nicholson",
+            "affiliation": "University of Georgia"
+          },
+          {
+            "name": "Joseph Ornstein",
+            "affiliation": "University of Georgia"
+          },
+          {
+            "name": "Gary M Segura",
+            "affiliation": "University of California, Los Angeles"
+          },
+          {
+            "name": "Andrew Stone",
+            "affiliation": "University of Georgia"
+          }
+        ]
+      },
+      {
+        "paper_title": "America First, Myself Second? A Survey Experiment on Partisan Willingness to Accept Price Hikes",
+        "authors": [
+          {
+            "name": "Adrien Halliez",
+            "affiliation": "Drake University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "David Macdonald",
+        "affiliation": "University of Florida"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Churchill B1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #7: Propaganda and Foreign Influence",
+    "chair": {
+      "name": "Jennifer Pan",
+      "affiliation": "Stanford University"
+    },
+    "participants": [
+      {
+        "paper_title": "Transnational propaganda and ethnic polarization: Experimental evidence from Malaysia",
+        "authors": [
+          {
+            "name": "Tony Yang",
+            "affiliation": "Emory University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Relationship with China, news about China",
+        "authors": [
+          {
+            "name": "Ji Yeon Hong",
+            "affiliation": "University of Michigan"
+          },
+          {
+            "name": "Yusaku Horiuchi",
+            "affiliation": "Florida State University"
+          },
+          {
+            "name": "Xinzhuo Huang",
+            "affiliation": "HKUST"
+          }
+        ]
+      },
+      {
+        "paper_title": "Propaganda is already influencing large language models: Evidence from training data, audits, and real- world usage",
+        "authors": [
+          {
+            "name": "Hannah Waight",
+            "affiliation": "University of Oregon"
+          },
+          {
+            "name": "Eddie Yang",
+            "affiliation": "Purdue University"
+          },
+          {
+            "name": "Yin Yuan",
+            "affiliation": "University of California San Diego"
+          },
+          {
+            "name": "Solomon Messing",
+            "affiliation": "New York University"
+          },
+          {
+            "name": "Margaret Roberts",
+            "affiliation": "University of California San Diego"
+          },
+          {
+            "name": "Brandon Stewart",
+            "affiliation": "Princeton University"
+          },
+          {
+            "name": "Joshua A. Tucker",
+            "affiliation": "New York University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Jennifer Pan",
+        "affiliation": "Stanford University"
+      },
+      {
+        "name": "Xu Xu",
+        "affiliation": "Princeton University"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Churchill B2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #8: Partisanship and Political Trust: Factors Shaping and Shaped by Crises",
+    "chair": {
+      "name": "Gina Yannitell Reinhardt",
+      "affiliation": "University of Essex"
+    },
+    "participants": [
+      {
+        "paper_title": "Trust and Taxes: A Citizen Experiment on the Effect of Trust and Race on t he Public's Willingness to Pay",
+        "authors": [
+          {
+            "name": "Clinton R. McNair",
+            "affiliation": "Rutgers University- Camden"
+          },
+          {
+            "name": "Jeremiah Muhammad",
+            "affiliation": "University of Tennessee"
+          }
+        ]
+      },
+      {
+        "paper_title": "How psychological distance shapes Americans' climate change preferences: A conjoint analysis",
+        "authors": [
+          {
+            "name": "Wei Wang",
+            "affiliation": "University of Pennsylvania"
+          },
+          {
+            "name": "Jing Ling Tan",
+            "affiliation": "Harvard University"
+          },
+          {
+            "name": "Wei-Ting Tsai",
+            "affiliation": "National Cheng Kung University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Who Should Be Responsible for Emergency Response? Examining Trust, Civic Engagement, and Level of Government Preferences",
+        "authors": [
+          {
+            "name": "Robert Hines",
+            "affiliation": "University of North Carolina at Charlotte"
+          },
+          {
+            "name": "Colt Jensen",
+            "affiliation": "University of North Carolina - Chapel Hill"
+          },
+          {
+            "name": "Suzanne Leland",
+            "affiliation": "University of North Carolina at Charlotte"
+          },
+          {
+            "name": "Jaclyn Piatak",
+            "affiliation": "Professor"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Effects of the Ashwin 2081 Floods on Nepali Political Trust",
+        "authors": [
+          {
+            "name": "Zlatin Mitkov",
+            "affiliation": "North Carolina State University"
+          },
+          {
+            "name": "Konstantin Ash",
+            "affiliation": "Bryn Mawr College"
+          },
+          {
+            "name": "Michael Yekple",
+            "affiliation": "Bowdoin College"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Lauren Clay",
+        "affiliation": "University of Maryland Baltimore County"
+      },
+      {
+        "name": "This panel explores how individual factors such as partisanship",
+        "affiliation": "social identies, emotional orientation, and"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Churchill C1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #3: Authors Meet Critics: \"The Efficacy of Judicial Review\"",
+    "chair": {
+      "name": "Jeff Staton",
+      "affiliation": "Emory University"
+    },
+    "participants": [],
+    "discussants": [
+      {
+        "name": "Lydia Tiede",
+        "affiliation": "University of Houston"
+      },
+      {
+        "name": "Eileen Braman",
+        "affiliation": "Indiana University"
+      },
+      {
+        "name": "Sara Benesh",
+        "affiliation": "University of Wisconsin - Milwaukee"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Churchill D",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #1: Voter Behavior and Partisanship",
+    "chair": {
+      "name": "Jill R Laufer",
+      "affiliation": "UC Center Sacramento (UC Davis)"
+    },
+    "participants": [
+      {
+        "paper_title": "Revisiting the Election Denier Penalty",
+        "authors": [
+          {
+            "name": "Kevin Morris",
+            "affiliation": "Brennan Center for Justice"
+          },
+          {
+            "name": "Arlyss Herzig",
+            "affiliation": "Brennan Center for Justice"
+          },
+          {
+            "name": "Michael G. Miller",
+            "affiliation": "Barnard College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Protest Voting in the 2024 Presidential Primaries",
+        "authors": [
+          {
+            "name": "Charles Stewart III",
+            "affiliation": "MIT"
+          },
+          {
+            "name": "Ning Soong",
+            "affiliation": "MIT"
+          }
+        ]
+      },
+      {
+        "paper_title": "Democracy on the Front Pages: Introducing the Election Administration Media Dashboard",
+        "authors": [
+          {
+            "name": "Liz Stark",
+            "affiliation": "University of Pennsylvania"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Christopher B. Mann",
+        "affiliation": "Skidmore College"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Durham",
+    "building": "3rd Floor",
+    "topic": "Race and Ethnicity",
+    "session_title": "Race and the Politics of Education",
+    "chair": {
+      "name": "Gregg Johnson",
+      "affiliation": "Valparaiso University"
+    },
+    "participants": [
+      {
+        "paper_title": "Affirmative Action's Reversal: The Long-Term Effects on Higher Education for Black and Hispanic Americans",
+        "authors": [
+          {
+            "name": "Donna L Taylor",
+            "affiliation": "University of Birmingham, UK"
+          }
+        ]
+      },
+      {
+        "paper_title": "Findings from the Southwest Time Sharing Survey of Hispanic Serving Institutions",
+        "authors": [
+          {
+            "name": "Michelangelo Landgrave",
+            "affiliation": "CU Boulder"
+          },
+          {
+            "name": "Matt Lamb",
+            "affiliation": "Texas Tech University"
+          },
+          {
+            "name": "Melissa Baker",
+            "affiliation": "UT El Paso"
+          }
+        ]
+      },
+      {
+        "paper_title": "Homeschooling as Racial Retreat: The Impact of School and Leadership Diversity",
+        "authors": [
+          {
+            "name": "Maranda Leigh Joyce",
+            "affiliation": "Rice University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Effects of Ethnic Diversity, Polarization, and Greek Life on University Hate Crime Rates",
+        "authors": [
+          {
+            "name": "Adam Rutkowski",
+            "affiliation": "Troy University"
+          },
+          {
+            "name": "Brandon Stewart",
+            "affiliation": "Troy University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Gregg Johnson",
+        "affiliation": "Valparaiso University"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Eglinton Winton",
+    "building": "",
+    "topic": "Women, Gender, and Politics",
+    "session_title": "Women and Electoral Representation: from participation to polarization",
+    "chair": {
+      "name": "Anna Mahoney",
+      "affiliation": "Dartmouth College"
+    },
+    "participants": [
+      {
+        "paper_title": "Does Women's Representation Pay? Candidate Placement and Party Performance",
+        "authors": [
+          {
+            "name": "Iris Acquarone",
+            "affiliation": "Arizona State University"
+          },
+          {
+            "name": "Alba Huidobro",
+            "affiliation": "Humboldt-Universität zu Berlin"
+          }
+        ]
+      },
+      {
+        "paper_title": "Who Governs Matters: Women’s Representation and State Repression",
+        "authors": [
+          {
+            "name": "Sanjida Mehrin",
+            "affiliation": "Louisiana State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Women in the Chamber: The Evolution of Women’s Representation in American State Legislatures",
+        "authors": [
+          {
+            "name": "Emma Schroeder",
+            "affiliation": "University of Notre Dame"
+          },
+          {
+            "name": "Mirya Holman",
+            "affiliation": "University of Houston"
+          },
+          {
+            "name": "Michael Patrick Olson",
+            "affiliation": "Washington University in St. Louis"
+          },
+          {
+            "name": "Christina Wolbrecht",
+            "affiliation": "University of Notre Dame"
+          }
+        ]
+      },
+      {
+        "paper_title": "Trust Recovery and Leadership Preferences During Democratic Crises",
+        "authors": [
+          {
+            "name": "Alexis Jang",
+            "affiliation": "Washington University in St. Louis"
+          },
+          {
+            "name": "Diana O'Brien",
+            "affiliation": "Washington University in St. Louis"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Murat Abus",
+        "affiliation": "Syracuse University"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Newberry",
+    "building": "3rd",
+    "topic": "Human Rights",
+    "session_title": "Human Rights Philosophy and Framing",
+    "chair": {
+      "name": "Anjali Mehta",
+      "affiliation": "What Is the Power of We (Nonprofit)"
+    },
+    "participants": [
+      {
+        "paper_title": "INDIAN KNOWLEDGE SYSTEM & PHILOSOPHY LEADING TOWARDS VIRTUOUS SOCIETY: Human Rights Perspective",
+        "authors": [
+          {
+            "name": "Pranjal Kumar Mishra",
+            "affiliation": "Dr B R Ambedkar University,Delhi"
+          },
+          {
+            "name": "PROF TANUJA SINGH",
+            "affiliation": "Dr. B.R. Ambedkar University Delhi"
+          }
+        ]
+      },
+      {
+        "paper_title": "'It's Alive!': Considering the Embodied Monstrous Self in International Politics",
+        "authors": [
+          {
+            "name": "Emrys P McGovern",
+            "affiliation": "Georgia State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Chinese Humanitarian Intervention in Public Memory-Divergent Recognitions and the Instability of the Humanitarian Framework",
+        "authors": [
+          {
+            "name": "Boyang Zhang",
+            "affiliation": "The London School of Economics and Political Science"
+          }
+        ]
+      },
+      {
+        "paper_title": "An Insight into the 75th Year of India’s Constitutional Journey and Gandhi’s Legacy from South Africa to India: A Human Rights Perspective",
+        "authors": [
+          {
+            "name": "PROF TANUJA SINGH",
+            "affiliation": "Dr. B.R. Ambedkar University Delhi"
+          },
+          {
+            "name": "Vaishali Bhandari",
+            "affiliation": "New York Film Academy"
+          },
+          {
+            "name": "Shreya I Ishita",
+            "affiliation": "MIT, New York, USA"
+          }
+        ]
+      },
+      {
+        "paper_title": "Physical Accessibility for Disabled Students at New Mexico Highlands University: A case study",
+        "authors": [
+          {
+            "name": "Francis K Boadu",
+            "affiliation": "New Mexico Highlands University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Courtney Harris",
+        "affiliation": "University of Louisiana Monroe"
+      }
+    ]
+  },
+  {
+    "session_id": "2200",
+    "day": "Thursday",
+    "start_time": "9:30am",
+    "end_time": "10:45am",
+    "room": "Parish",
+    "building": "3rd Floor",
+    "topic": "American Political Development",
+    "session_title": "Presidential Power and the Crisis State",
+    "chair": {
+      "name": "Savannah Eccles Johnston",
+      "affiliation": "Utah Valley University"
+    },
+    "participants": [
+      {
+        "paper_title": "Kill the Agency, Keep the Mission: Adaptive Power in the U.S Crisis State",
+        "authors": [
+          {
+            "name": "Meghan Iverson",
+            "affiliation": "university of chicago"
+          }
+        ]
+      },
+      {
+        "paper_title": "“The Civil Rights Action is in the Executive Branch”: Reconsidering Nixon’s Administrative Presidency",
+        "authors": [
+          {
+            "name": "John Dearborn",
+            "affiliation": "Vanderbilt University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The ‘Movement of a People’: Regime Legitimacy and Presidential Rhetoric on the Founding, 1789-2024",
+        "authors": [
+          {
+            "name": "Stephanie Wise",
+            "affiliation": "Central College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Giving Up Control: The Rise of Presidential Primaries",
+        "authors": [
+          {
+            "name": "Boris Heersink",
+            "affiliation": "Fordham University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Savannah Eccles Johnston",
+        "affiliation": "Utah Valley University"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Ascot",
+    "building": "3rd Floor",
+    "topic": "Comparative Political Behavior and Electoral Systems",
+    "session_title": "Autocratization and Democratic Backsliding",
+    "chair": {
+      "name": "Alexei Zakharov",
+      "affiliation": "University of Chicago"
+    },
+    "participants": [
+      {
+        "paper_title": "Priming Politics and Threat: Authoritarian Values Strength in Latin America",
+        "authors": [
+          {
+            "name": "Robert Vidigal",
+            "affiliation": "Vanderbilt University"
+          },
+          {
+            "name": "Andrew Engelhardt",
+            "affiliation": "Stony Brook University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Why do Some Democracies Backslide more than Others? Explaining Divergence on Democratic Backsliding in Post-Communist Europe through Behavioral Approach",
+        "authors": [
+          {
+            "name": "Yongsu Cho",
+            "affiliation": "Seoul National University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Women Leaders and Autocratization",
+        "authors": [
+          {
+            "name": "Christopher Akor",
+            "affiliation": "The University of Alabama"
+          },
+          {
+            "name": "Prince Tetteh",
+            "affiliation": "University of Alabama"
+          }
+        ]
+      },
+      {
+        "paper_title": "Authoritarian Durability and the Limits of Political Exposure: Insights from Chinese International Students",
+        "authors": [
+          {
+            "name": "Muyao Hang",
+            "affiliation": "UNIVERSITY OF PITTSBURGH"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Minh Duc Trinh",
+        "affiliation": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Bridge",
+    "building": "Riverside",
+    "topic": "Undergraduate Research",
+    "session_title": "Political Institutions, Law, and Governance",
+    "chair": {
+      "name": "Emmitt Y Riley",
+      "affiliation": "University of the south"
+    },
+    "participants": [
+      {
+        "paper_title": "Bill Severity and Passage Behavior of Nullification Legislation in State Legislatures",
+        "authors": [
+          {
+            "name": "Jesse Driese",
+            "affiliation": "Saint Louis University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Improving Legal Understanding and Resource Access for Foster Youth",
+        "authors": [
+          {
+            "name": "Sarah Charrier",
+            "affiliation": "University of Louisiana Monroe"
+          },
+          {
+            "name": "Courtney Harris",
+            "affiliation": "University of Louisiana Monroe"
+          }
+        ]
+      },
+      {
+        "paper_title": "Machine Learning-Assisted Sentiment Analysis of Testimony of the Ohio Legislature's 136th General Assembly",
+        "authors": [
+          {
+            "name": "Gabriel Adam Mott",
+            "affiliation": "Ohio Northern University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Integration of U.S Public Schools: Did They Truly Integrate?",
+        "authors": [
+          {
+            "name": "Jamylah Deon Sykes",
+            "affiliation": "North Carolina A & T student"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Emmitt Y Riley",
+        "affiliation": "University of the south"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Cambridge",
+    "building": "2nd",
+    "topic": "Program Chair's Panels",
+    "session_title": "Roundtable: Black Women in Politics",
+    "chair": {
+      "name": "Angela Lewis-Maddox",
+      "affiliation": "University of Alabama, Birmingham"
+    },
+    "participants": [],
+    "discussants": [
+      {
+        "name": "Mayor Sharon Broome",
+        "affiliation": "Baton Rouge"
+      },
+      {
+        "name": "Judge Nakisha Ervin-Knott",
+        "affiliation": "Louisiana Court of Appeal"
+      },
+      {
+        "name": "Lisa Diggs",
+        "affiliation": "2nd City Clerk of Court"
+      },
+      {
+        "name": "Mea Boykins",
+        "affiliation": "University of the West Indies"
+      },
+      {
+        "name": "Cherie Teamer",
+        "affiliation": "Esq, Davis, Johnson, & Teamer"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Canal",
+    "building": "3rd Floor",
+    "topic": "Public Opinion",
+    "session_title": "Attitudes about Welfare and Redistribution",
+    "chair": {
+      "name": "Morgan Lowder",
+      "affiliation": "East Tennessee State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Paths to the Immigrationalization of Welfare Attitudes: Immigration and Welfare Attitudes in 21 European Countries",
+        "authors": [
+          {
+            "name": "Woong Kwon",
+            "affiliation": "The University of Texas at Austin"
+          }
+        ]
+      },
+      {
+        "paper_title": "Shared Burden or Personal Duty? Public Views on Paying for Medical Care",
+        "authors": [
+          {
+            "name": "Drew Michael Gaither",
+            "affiliation": "Kennesaw State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Welfare State and Foreign Aid: Solidarity, Economic Security, and Citizen Support",
+        "authors": [
+          {
+            "name": "Kathleen Clare Weaver",
+            "affiliation": "Tulane University"
+          }
+        ]
+      },
+      {
+        "paper_title": "When Welfare Bites Back: Consequences of State Intervention on the Values and Attitudes of Children",
+        "authors": [
+          {
+            "name": "Claudia Looney Miner",
+            "affiliation": "Cornell University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Dot Sawler",
+        "affiliation": "University of Rochester"
+      },
+      {
+        "name": "Megan Dias",
+        "affiliation": "Cornell University"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Churchill B1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #7: Political Economy of Autocracy",
+    "chair": {
+      "name": "Holger Kern",
+      "affiliation": "Florida State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Social mobility, authoritarian regime survival, and democratization",
+        "authors": [
+          {
+            "name": "Christian Houle",
+            "affiliation": "Michigan State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Demand for decentralization? Experimental evidence from public and political elites in Uzbekistan",
+        "authors": [
+          {
+            "name": "Khasan Redjaboev",
+            "affiliation": "Wisconsin-Madison"
+          }
+        ]
+      },
+      {
+        "paper_title": "Democracy unleashed: Eligibility, selection, and redistribution in Argentina",
+        "authors": [
+          {
+            "name": "Sebastian Cortesi",
+            "affiliation": "Johns Hopkins University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Holger Kern",
+        "affiliation": "Florida State University"
+      },
+      {
+        "name": "Ora John Reuter",
+        "affiliation": "University of Wisconsin"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Churchill B2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #8: Effectiveness and Implementation of Climate Policy and Plans",
+    "chair": {
+      "name": "Gina Yannitell Reinhardt",
+      "affiliation": "University of Essex"
+    },
+    "participants": [
+      {
+        "paper_title": "Climate Resilience in Kerala: Evaluating the Effectiveness of Environmental Laws and Policies",
+        "authors": [
+          {
+            "name": "Shameem Chunda Chalil",
+            "affiliation": "KL University, Andra Pradesh, India"
+          },
+          {
+            "name": "P. V. Anoop",
+            "affiliation": "University of Calicut, Kerala, India"
+          },
+          {
+            "name": "Aisha Ibrahim Mohammed",
+            "affiliation": "Cochin University of Science and Technology"
+          }
+        ]
+      },
+      {
+        "paper_title": "Evaluating Land Use Change and Flood - Risk Hotspots in Floodplains of Southeastern Florida (2011 – 2021)",
+        "authors": [
+          {
+            "name": "Chandra Hada",
+            "affiliation": "Texas A&M University"
+          },
+          {
+            "name": "Samuel Brody",
+            "affiliation": "Texas A&M University at Galveston"
+          }
+        ]
+      },
+      {
+        "paper_title": "Net Zero at the Local Level: What Can UK Marine Planning Tell Us About the Politics of Local Climate Adaptation?",
+        "authors": [
+          {
+            "name": "Gina Yannitell Reinhardt",
+            "affiliation": "University of Essex"
+          },
+          {
+            "name": "Pat Danahey Janin",
+            "affiliation": "Science Po"
+          }
+        ]
+      },
+      {
+        "paper_title": "Deregulation by Disaster: Emergency Exemptions of Environmental Law",
+        "authors": [
+          {
+            "name": "Victor Yuhang Wu",
+            "affiliation": "Stanford University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Photovoice Methodology in Resilience Studies: A Systematic Review",
+        "authors": [
+          {
+            "name": "Courtney Page-Tan",
+            "affiliation": "Indiana University Indianapolis"
+          },
+          {
+            "name": "Helen Mckinney",
+            "affiliation": "Indiana University Indianapolis"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Allison Grossman",
+        "affiliation": "Tulane University"
+      },
+      {
+        "name": "This panel examines implementation of climate policys and plans",
+        "affiliation": "highlighting the gaps between"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Churchill C1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #3: Support for Courts",
+    "chair": {
+      "name": "Amanda Driscoll",
+      "affiliation": "Florida State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Supreme Court Decisions, Public Engagement, and Court Support",
+        "authors": [
+          {
+            "name": "Joshua Boston",
+            "affiliation": "Bowling Green State University"
+          },
+          {
+            "name": "Chris Krewson",
+            "affiliation": "Brigham Young University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Beyond the Battery: What Americans Really Think About Supreme Court Legitimacy",
+        "authors": [
+          {
+            "name": "Taraleigh Davis",
+            "affiliation": "Bradley University"
+          },
+          {
+            "name": "Sara Benesh",
+            "affiliation": "University of Wisconsin - Milwaukee"
+          }
+        ]
+      },
+      {
+        "paper_title": "Symbolic Ideology, Policy Views, and Supreme Court Behavior",
+        "authors": [
+          {
+            "name": "Albert Rivero",
+            "affiliation": "University of Virginia"
+          }
+        ]
+      },
+      {
+        "paper_title": "Emotional Responses to Supreme Court Decisions and their Impact on Court Approval",
+        "authors": [
+          {
+            "name": "Nathan Carrington",
+            "affiliation": "Saint Louis University"
+          },
+          {
+            "name": "Shana Kushner Gadarian",
+            "affiliation": "Syracuse University"
+          },
+          {
+            "name": "Bethany Albertson",
+            "affiliation": "University of Texas at Austin"
+          }
+        ]
+      },
+      {
+        "paper_title": "Due Diligence? How the Nuclear Option Transformed Judicial Vetting",
+        "authors": [
+          {
+            "name": "Morrgan Herlihy",
+            "affiliation": "Penn State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Logan Strother",
+        "affiliation": "Purdue University"
+      },
+      {
+        "name": "Jonathan King",
+        "affiliation": "University of Georgia"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Churchill C2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #10: Rethinking Migration Data and Concepts",
+    "chair": {
+      "name": "Beth Elise Whitaker",
+      "affiliation": "University of North Carolina at Charlotte"
+    },
+    "participants": [
+      {
+        "paper_title": "What Is a Route? Conceptual Ambiguities and Institutional Uses in Migration Studies",
+        "authors": [
+          {
+            "name": "Naida Softic",
+            "affiliation": "Loyola University Chicago"
+          }
+        ]
+      },
+      {
+        "paper_title": "Overcoming Methodological Nationalism in Migration Theory",
+        "authors": [
+          {
+            "name": "Alex Sager",
+            "affiliation": "Portland State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Toward Identifying Political Compromise: Rethinking Public Support of Immigration as a Conditional Preference",
+        "authors": [
+          {
+            "name": "Alexander Kustov",
+            "affiliation": "UNC Charlotte"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Christopher Blair",
+        "affiliation": "Princeton University"
+      },
+      {
+        "name": "Natalie Chwalisz",
+        "affiliation": "Dickinson College"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Churchill D",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #1: Access and Disparities in Elections",
+    "chair": {
+      "name": "Mindy Romero",
+      "affiliation": "University of Southern California, Price"
+    },
+    "participants": [
+      {
+        "paper_title": "Does Federal Preclearance Make a Difference? Examining the Effects of Shelby on the Minority Voting Gap and Countermobilization",
+        "authors": [
+          {
+            "name": "Jeffrey Milyo",
+            "affiliation": "University of Missouri"
+          },
+          {
+            "name": "Brendan Cirillo",
+            "affiliation": "University of Missouri"
+          }
+        ]
+      },
+      {
+        "paper_title": "Evaluating race - specific disparities in voter behavior in ranked - choice elections",
+        "authors": [
+          {
+            "name": "Deb Otis",
+            "affiliation": "FairVote"
+          },
+          {
+            "name": "Sam Wang",
+            "affiliation": "Princeton University"
+          },
+          {
+            "name": "Rachel Hutchinson",
+            "affiliation": "FairVote"
+          }
+        ]
+      },
+      {
+        "paper_title": "Signaling Youth, Miss ing the Mark? Social Media Advocacy and Political Engagement in Young Americans during the 2024 Election",
+        "authors": [
+          {
+            "name": "Jill R Laufer",
+            "affiliation": "UC Center Sacramento (UC Davis)"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Daniel Smith",
+        "affiliation": "University of Florida"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Commerce",
+    "building": "3rd",
+    "topic": "International Conflict and Security",
+    "session_title": "Domestic Politics and Conflict",
+    "chair": {
+      "name": "Jeff Carter",
+      "affiliation": "Appalachian State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Grievances and the Role of Subnational Elections in Explaining Civil War",
+        "authors": [
+          {
+            "name": "Edward Blake Morris",
+            "affiliation": "University of South Carolina"
+          }
+        ]
+      },
+      {
+        "paper_title": "Inequality, Threat of Redistribution, and Interstate Conflict",
+        "authors": [
+          {
+            "name": "Valery Dzutsati",
+            "affiliation": "Augusta University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Rallying the Ranks: How Territorial Threats Shape Civil-Military Cooperation",
+        "authors": [
+          {
+            "name": "Henry Moncrieff",
+            "affiliation": "Texas Tech University"
+          },
+          {
+            "name": "Toby Rider",
+            "affiliation": "Texas Tech University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Strategy of Wartime Issue Manipulation",
+        "authors": [
+          {
+            "name": "Doug Atkinson",
+            "affiliation": "Brigham Young University"
+          },
+          {
+            "name": "Andy Owsiak",
+            "affiliation": "University of Georgia"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Jeff Carter",
+        "affiliation": "Appalachian State University"
+      },
+      {
+        "name": "Linchuan Zhang",
+        "affiliation": "Emory University"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Eglinton Winton",
+    "building": "",
+    "topic": "Political Psychology",
+    "session_title": "Partisanship, Elections, and Voting Behavior",
+    "chair": {
+      "name": "Najja Baptist",
+      "affiliation": "University of Arkansas"
+    },
+    "participants": [
+      {
+        "paper_title": "Core Values and Party Defection in American Elections",
+        "authors": [
+          {
+            "name": "Robert Lupton",
+            "affiliation": "University of Connecticut"
+          },
+          {
+            "name": "Jack Santucci",
+            "affiliation": "The George Washington University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Emotional Intelligence and Partisan Perceptions of Risk",
+        "authors": [
+          {
+            "name": "Kristyn Karl",
+            "affiliation": "Stevens Institute"
+          }
+        ]
+      },
+      {
+        "paper_title": "Gendered Partisan Fit: Voter Identity and Perceptions of Party Stereotypes & Prototypes",
+        "authors": [
+          {
+            "name": "Maggie Kathleen Martin",
+            "affiliation": "University of Southern Mississippi"
+          }
+        ]
+      },
+      {
+        "paper_title": "Playing Unfair to Win: How Partisan Competition, Rhetoric, and Moral Reasoning Fuels Support for Partisan Gerrymandering",
+        "authors": [
+          {
+            "name": "Sam Fuller",
+            "affiliation": "Harvard University"
+          },
+          {
+            "name": "Hilary J. Izatt",
+            "affiliation": "Binghamton University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Replication and Reexamination of Dwight Dean's Scale on Political Apathy and Alienation",
+        "authors": [
+          {
+            "name": "Daniel P Chadborn",
+            "affiliation": "New Mexico Highlands University"
+          },
+          {
+            "name": "Nicholas Tucker",
+            "affiliation": "New Mexico Highlands University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Najja Baptist",
+        "affiliation": "University of Arkansas"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm      Public Opinion",
+    "room": "Kobacoff",
+    "building": "",
+    "topic": "Political Methodology",
+    "session_title": "Voters and Measurement",
+    "chair": {},
+    "participants": [
+      {
+        "paper_title": "A Multidimensional Entropy Measure of Public Political Polarization",
+        "authors": [
+          {
+            "name": "Le Bao",
+            "affiliation": "City University of Hong Kong"
+          },
+          {
+            "name": "Jeff Gill",
+            "affiliation": "American. University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Are Voters Risk Averse? Specifying Utility Functions in Spatial Models of Voting",
+        "authors": [
+          {
+            "name": "Carlos Algara",
+            "affiliation": "Claremont Graduate University"
+          },
+          {
+            "name": "Sam Fuller",
+            "affiliation": "Harvard University"
+          },
+          {
+            "name": "Chris Hare",
+            "affiliation": "University of California, Davis"
+          }
+        ]
+      },
+      {
+        "paper_title": "Beyond the Ballot Box: Towards A Comprehensive Measure of Minor Party Success",
+        "authors": [
+          {
+            "name": "Theodore Gercken",
+            "affiliation": "Hamilton College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Racial Comparability in Authoritarianism Scales: Latent Beliefs or Biased Measurement?",
+        "authors": [
+          {
+            "name": "Bang Quan Zheng",
+            "affiliation": "University of Texas at Austin"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Cory McCartan",
+        "affiliation": "Pennsylvania State University"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Magazine",
+    "building": "3rd    Participants",
+    "topic": "Political Theory",
+    "session_title": "Liberty, Legislation, and Legitimacy",
+    "chair": {},
+    "participants": [],
+    "discussants": [
+      {
+        "name": "Kody W Cooper",
+        "affiliation": "University of Tennessee - Knoxville"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Newberry",
+    "building": "3rd",
+    "topic": "Local and Urban Politics",
+    "session_title": "Crime and Local Policing Issues",
+    "chair": {
+      "name": "Xiaohong Wang",
+      "affiliation": "University of South Alabama"
+    },
+    "participants": [
+      {
+        "paper_title": "Mayoral partisanship predicts appointments of women police chiefs",
+        "authors": [
+          {
+            "name": "Xiaohong Wang",
+            "affiliation": "University of South Alabama"
+          },
+          {
+            "name": "Corina Schulze",
+            "affiliation": "University of South Alabama"
+          }
+        ]
+      },
+      {
+        "paper_title": "Municipal Policing and the Winner's Curse",
+        "authors": [
+          {
+            "name": "Daniel Joseph Lane",
+            "affiliation": "Northeastern Illinois University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Double-Edged Sword of Policing: The Impact of Policing Consequences on Attitudes",
+        "authors": [
+          {
+            "name": "Bryant James Moy",
+            "affiliation": "New York University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Reimagining Police Preparation: A Mixed Methods Study of University-Based Officer Training",
+        "authors": [
+          {
+            "name": "Sasha Siva Sembur",
+            "affiliation": "North Carolina State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Tom Stucky",
+        "affiliation": "Indiana University Indianapolis"
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Norwich",
+    "building": "3rd",
+    "topic": "Environmental Politics and Policy",
+    "session_title": "Institutions and Environmental Policy",
+    "chair": {
+      "name": "Srinivas Parinandi",
+      "affiliation": "University of Colorado at Boulder"
+    },
+    "participants": [
+      {
+        "paper_title": "ECOWAS and Inverted Sacrifice Zones",
+        "authors": [
+          {
+            "name": "Arjuna da Silva",
+            "affiliation": "Northern Arizona University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Network Drivers of Organizational Diversity and Participation Across 30 Years of International Climate Change Negotiations",
+        "authors": [
+          {
+            "name": "Zack W. Almquist",
+            "affiliation": "Univesrity of Washington"
+          },
+          {
+            "name": "Benjamin Bagozzi",
+            "affiliation": "University of Delaware"
+          },
+          {
+            "name": "Daria Blinova",
+            "affiliation": "University of Delaware"
+          }
+        ]
+      },
+      {
+        "paper_title": "The State Park Idea: The Vision and the Reality",
+        "authors": [
+          {
+            "name": "Steven Davis",
+            "affiliation": "Edgewood University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Strategic Reflexivity and the Politics of Compliance with the Paris Agreement: Analysing How Norms and Interests Shape International Environmental Agreements (IEAs)",
+        "authors": [
+          {
+            "name": "Olawale Olalekan Ayansola",
+            "affiliation": "University of Alabama"
+          }
+        ]
+      },
+      {
+        "paper_title": "Nonprofit collaboration in environmental and climate governance",
+        "authors": [
+          {
+            "name": "Yu Sun",
+            "affiliation": "Florida State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Joshua Basseches",
+        "affiliation": "Tulane University"
+      },
+      {
+        "name": "Included in the definition of institutions are international institutions as well as the research enterprise",
+        "affiliation": ""
+      },
+      {
+        "name": "The manuscripts explore novel directions related to the application of institutions to environmental policy",
+        "affiliation": ""
+      }
+    ]
+  },
+  {
+    "session_id": "2300",
+    "day": "Thursday",
+    "start_time": "11:00am",
+    "end_time": "12:15pm",
+    "room": "Parish",
+    "building": "3rd Floor",
+    "topic": "American Political Development",
+    "session_title": "Constitutional Thought, Legitimacy, and Democratic Foundations",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Ascot",
+    "building": "3rd Floor",
+    "topic": "Comparative Political Behavior and Electoral Systems",
+    "session_title": "Chinese Political Attitudes and Behavior",
+    "chair": {
+      "name": "Robert Harmel",
+      "affiliation": "Texas A&M University"
+    },
+    "participants": [
+      {
+        "paper_title": "China's Gen Z: The Challenging Generation?",
+        "authors": [
+          {
+            "name": "Robert Harmel",
+            "affiliation": "Texas A&M University"
+          },
+          {
+            "name": "Zhishuo Fu",
+            "affiliation": "Texas A&M University"
+          },
+          {
+            "name": "Chen Shen",
+            "affiliation": "Texas A&M University"
+          },
+          {
+            "name": "Yao-Yuan Yeh",
+            "affiliation": "University of St. Thomas"
+          }
+        ]
+      },
+      {
+        "paper_title": "Quid Pro Quo in Human Rights Crises: How Authoritarian States Use Foreign Aid to Secure International Support",
+        "authors": [
+          {
+            "name": "Chen Shen",
+            "affiliation": "Texas A&M University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Class, Place, and Interregional Economic Inequality in Chinese Fairness Perceptions",
+        "authors": [
+          {
+            "name": "Dong Wook Lee",
+            "affiliation": "Adelphi University"
+          },
+          {
+            "name": "Xian Huang",
+            "affiliation": "Rutgers University"
+          }
+        ]
+      },
+      {
+        "paper_title": "From Equality to Security: Taiwan’s Human Rights Leadership as Soft Power",
+        "authors": [
+          {
+            "name": "John Wagner Givens",
+            "affiliation": "Spelman College"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Charles Wu",
+        "affiliation": "University of South Alabama"
+      },
+      {
+        "name": "Yao-Yuan Yeh",
+        "affiliation": "University of St. Thomas"
+      },
+      {
+        "name": "The papers of this panel report research on political attitudes",
+        "affiliation": "behavior, and policy in China."
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Bridge",
+    "building": "Riverside",
+    "topic": "Undergraduate Research",
+    "session_title": "Global Power, Security, and International Politics",
+    "chair": {
+      "name": "Autumn Perkey",
+      "affiliation": "University of Central Florida"
+    },
+    "participants": [
+      {
+        "paper_title": "Determining the Effectiveness of Reagan and Trump’s Foreign Policy Plans in Relation to International Organizations",
+        "authors": [
+          {
+            "name": "Alison Ringhiser",
+            "affiliation": "Ohio Northern University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Implications of Sino-Indian Rivalry in India -Bangladesh Watercourse Sharing: A geopolitical perspective",
+        "authors": [
+          {
+            "name": "Tushrat Asha",
+            "affiliation": "Truman State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Seeds of Suspicion: Chinese Farmland Purchases as a Trojan Horse for US National Security",
+        "authors": [
+          {
+            "name": "Andrew James Comer",
+            "affiliation": "Student at Ohio Northern University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Autumn Perkey",
+        "affiliation": "University of Central Florida"
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Cambridge",
+    "building": "2nd",
+    "topic": "Comparative Politics of Developing Areas",
+    "session_title": "The Politics of Culture, Ethnicity, and Nationality",
+    "chair": {
+      "name": "Stephen Voss",
+      "affiliation": "University of Kentucky"
+    },
+    "participants": [
+      {
+        "paper_title": "Cultural Halls: How China’s Infrastructural Power Reaches the Rural Area",
+        "authors": [
+          {
+            "name": "Yanchun Xu",
+            "affiliation": "Renmin University of China"
+          }
+        ]
+      },
+      {
+        "paper_title": "“Dreaming Big”- India’s Plan Towards Making an Entertainment Paradise.",
+        "authors": [
+          {
+            "name": "Hareen Patel",
+            "affiliation": "School of Liberal Studies, Dr. B.R. Ambedkar University Delhi."
+          },
+          {
+            "name": "PROF TANUJA SINGH",
+            "affiliation": "Dr. B.R. Ambedkar University Delhi"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Dangers of Denim: Victim Blame against Southern Asian Women Wearing Western Garb",
+        "authors": [
+          {
+            "name": "Stephen Voss",
+            "affiliation": "University of Kentucky"
+          }
+        ]
+      },
+      {
+        "paper_title": "National Identification in Central Asia: Effects of Modernization, Status, Political Power and Labor Migration",
+        "authors": [
+          {
+            "name": "Brent Hierman",
+            "affiliation": "VMI"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Authentic Autocrat: Conspiracy Theories, Political Theology, and the Perils of Personalism",
+        "authors": [
+          {
+            "name": "Dima Kortukov",
+            "affiliation": "University of Alabama"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Brady Shrader",
+        "affiliation": "West Virginia University"
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Canal",
+    "building": "3rd Floor",
+    "topic": "Public Opinion",
+    "session_title": "Science, Technology, and Innovation Attitudes",
+    "chair": {
+      "name": "Seongjoon Ahn",
+      "affiliation": "University of Iowa"
+    },
+    "participants": [
+      {
+        "paper_title": "Artificial Attitudes? How Partisan Cues Shape Public Opinion on Artificial Intelligence Regulation.",
+        "authors": [
+          {
+            "name": "Sinan Nadarevic",
+            "affiliation": "University of Colorado Boulder"
+          }
+        ]
+      },
+      {
+        "paper_title": "Australian Attitudes to National Space Activities",
+        "authors": [
+          {
+            "name": "Kathryn Robison",
+            "affiliation": "The University of Sydney"
+          }
+        ]
+      },
+      {
+        "paper_title": "Personality and Attitudes About Scientific Progress",
+        "authors": [
+          {
+            "name": "Grant Ferguson",
+            "affiliation": "Texas Christian University"
+          },
+          {
+            "name": "Kathryn Haglin",
+            "affiliation": "University of Minnesota - Duluth"
+          },
+          {
+            "name": "Soren Jordan",
+            "affiliation": "Texas A&M University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Seongjoon Ahn",
+        "affiliation": "University of Iowa"
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Churchill C2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #10: Migration Governance and Policy Implementation",
+    "chair": {
+      "name": "Miranda Simon",
+      "affiliation": "University of Essex"
+    },
+    "participants": [
+      {
+        "paper_title": "Rentier Refugee States from the Inside: The Role of Lebanese Local Authorities in t he Commodification of Syrian Refugees",
+        "authors": [
+          {
+            "name": "Harb Malak",
+            "affiliation": "City University of New York"
+          }
+        ]
+      },
+      {
+        "paper_title": "Documenting the In-Between: Methodological Innovations and Narrative Disruption in Researching Irregular Migration from West Africa",
+        "authors": [
+          {
+            "name": "Natalie Chwalisz",
+            "affiliation": "Dickinson College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Threat, Emulation, and Partisanship: Variation in Sanctuary City Protection",
+        "authors": [
+          {
+            "name": "Benjamin Gonzalez O'Brien",
+            "affiliation": "San Diego State University"
+          },
+          {
+            "name": "Loren Collingwood",
+            "affiliation": "University of New Mexico"
+          },
+          {
+            "name": "Michael Paarlberg",
+            "affiliation": "Virginia Commonwealth University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Taylor Trummel",
+        "affiliation": "University of California Santa Barbara"
+      },
+      {
+        "name": "Naida Softic",
+        "affiliation": "Loyola University Chicago"
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Churchill D",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #1: Making Connections to Advance Election Research",
+    "chair": {
+      "name": "Lisa A Bryant",
+      "affiliation": "CSU, Fresno"
+    },
+    "participants": [],
+    "discussants": [
+      {
+        "name": "TJ Pyche",
+        "affiliation": "The Elections Group"
+      },
+      {
+        "name": "Kurt Sampsel",
+        "affiliation": "Center for Tech and Civic Life"
+      },
+      {
+        "name": "Karen Brinson Bell",
+        "affiliation": "MEDSL/ Former ED of NC State Board of Elections"
+      },
+      {
+        "name": "Alliance for Election Excellence.",
+        "affiliation": ""
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Commerce",
+    "building": "3rd",
+    "topic": "International Conflict and Security",
+    "session_title": "Dynamics of Civil Conflict",
+    "chair": {
+      "name": "Daniel James Milton",
+      "affiliation": "Brigham Young University"
+    },
+    "participants": [
+      {
+        "paper_title": "Democratisation, Conflict and crisis in Afghanistan: Contemporary United States role in the new great game of Asia Pacific",
+        "authors": [
+          {
+            "name": "Farhan Khalid",
+            "affiliation": "Government Murray graduate college Sialkot, Punjab-Pakistan"
+          }
+        ]
+      },
+      {
+        "paper_title": "From Machetes to Algorithms: Patterns, Predictions, and the Prevention of Genocide in the Modern World",
+        "authors": [
+          {
+            "name": "Zachary Karazsia",
+            "affiliation": "Valdosta State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Rebel Groups and the Strategic Logic of Governance: A Peaceful Outbidding Perspective.",
+        "authors": [
+          {
+            "name": "Toyosi R Ajibade",
+            "affiliation": "University of Central Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Politics of Lawfare: The Strategic Use of Judicial Processes During an Armed Conflict",
+        "authors": [
+          {
+            "name": "Juliana Gbemileke POPOOLA",
+            "affiliation": "TEXAS TECH UNIVERSITY"
+          }
+        ]
+      },
+      {
+        "paper_title": "When Do States Repress? Extremism and Government Responses to Rebel Groups",
+        "authors": [
+          {
+            "name": "Salomon Huerta",
+            "affiliation": "University of Houston"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Daniel James Milton",
+        "affiliation": "Brigham Young University"
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Durham",
+    "building": "3rd Floor",
+    "topic": "Race and Ethnicity",
+    "session_title": "The Limits of Black Freedom Movements",
+    "chair": {
+      "name": "Robert Mickey",
+      "affiliation": "University of Michigan"
+    },
+    "participants": [
+      {
+        "paper_title": "Imperiled: Louisiana v. Calais and the Future of the Voting Rights Act of 1965",
+        "authors": [
+          {
+            "name": "Albert L. Samuels",
+            "affiliation": "Southern University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Repetitions of Violence: Localized Patterns of Racial Violence in the American South 1920-2020",
+        "authors": [
+          {
+            "name": "Jeremy Berkowitz",
+            "affiliation": "Prairie View A&M University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The seeds that Never Sprouted",
+        "authors": [
+          {
+            "name": "Julius McDade",
+            "affiliation": "New Mexico Highlands"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Robert Mickey",
+        "affiliation": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm      Public Opinion",
+    "room": "Kobacoff",
+    "building": "",
+    "topic": "Political Methodology",
+    "session_title": "Estimating Public Opinion",
+    "chair": {},
+    "participants": [
+      {
+        "paper_title": "Identification and Estimation of Conditional Means from Aggregate Data",
+        "authors": [
+          {
+            "name": "Cory McCartan",
+            "affiliation": "Pennsylvania State University"
+          },
+          {
+            "name": "Shiro Kuriwaki",
+            "affiliation": "Yale University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Representativeness of Policy Preferences in Survey Data for American Politics Research: Evidence from Cast Vote Records",
+        "authors": [
+          {
+            "name": "Lonna Atkeson",
+            "affiliation": "Florida State University"
+          },
+          {
+            "name": "Yimeng Li",
+            "affiliation": "Florida State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Toward an American Socioeconomic Index for Use in Political Science Research",
+        "authors": [
+          {
+            "name": "Ryan Dennehy",
+            "affiliation": "University of South Carolina"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Chris Hare",
+        "affiliation": "University of California, Davis"
+      }
+    ]
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Magazine",
+    "building": "3rd",
+    "topic": "Political Theory",
+    "session_title": "Foundations and Justice",
+    "chair": {
+      "name": "Thomas Lacourse",
+      "affiliation": "Saint Anselm College"
+    },
+    "participants": [
+      {
+        "paper_title": "Homer's Political History of the Trojan War",
+        "authors": []
+      },
+      {
+        "paper_title": "Andrew Gross, Clemson University",
+        "authors": []
+      },
+      {
+        "paper_title": "Law and Nature in Aristotelian Justice: Why Aristotle Upholds Law as the Foundation for Justice",
+        "authors": []
+      },
+      {
+        "paper_title": "Samuel Ambrose Clancy, Baylor University",
+        "authors": []
+      },
+      {
+        "paper_title": "Musical Poikilia in Plato’s Republic: The Perennial Problem of Harmony",
+        "authors": []
+      },
+      {
+        "paper_title": "Rebecca LeMoine, Florida Atlantic University",
+        "authors": []
+      },
+      {
+        "paper_title": "Liberal States, Communitarian Societies: Aristotle, Cicero, and Aquinas on the Pursuit of Happiness",
+        "authors": []
+      },
+      {
+        "paper_title": "Tiffany Barron, University of Tennessee, Knoxville",
+        "authors": []
+      }
+    ],
+    "discussants": []
+  },
+  {
+    "session_id": "2400",
+    "day": "Thursday",
+    "start_time": "12:30pm",
+    "end_time": "1:45pm",
+    "room": "Newberry",
+    "building": "3rd",
+    "topic": "Local and Urban Politics",
+    "session_title": "Housing and neighborhood challenges",
+    "chair": {
+      "name": "Denise Quinlan",
+      "affiliation": "Clark Atlanta University"
+    },
+    "participants": [
+      {
+        "paper_title": "Affordable Housing Stock and the Prevalence of Housing Problems in Connecticut’s Occupied Housing.",
+        "authors": []
+      },
+      {
+        "paper_title": "Samaila Adelaiye, Partnership for Strong Communities",
+        "authors": []
+      },
+      {
+        "paper_title": "Public Responsiveness to Compensation for New Housing",
+        "authors": []
+      },
+      {
+        "paper_title": "David Foster, Florida State University",
+        "authors": []
+      },
+      {
+        "paper_title": "Joseph Warren, University of Alaska Anchorage",
+        "authors": []
+      },
+      {
+        "paper_title": "Creating Sustainable Neighborhoods: Neighborhood Governance and Reinvestment",
+        "authors": []
+      },
+      {
+        "paper_title": "Michael Craw, The Evergreen State College",
+        "authors": []
+      },
+      {
+        "paper_title": "Simon Andrew, University of North Texas",
+        "authors": []
+      },
+      {
+        "paper_title": "Local Government Officials, Land Use Regulation, and Political Reresentation",
+        "authors": []
+      },
+      {
+        "paper_title": "Doug Murdoch, Southern Utah University",
+        "authors": []
+      },
+      {
+        "paper_title": "Neighborhood political composition and political behavior",
+        "authors": []
+      },
+      {
+        "paper_title": "Itamar Yakir, Yale University",
+        "authors": []
+      },
+      {
+        "paper_title": "Gregory Huber, Yale University",
+        "authors": []
+      },
+      {
+        "paper_title": "Mackenzie Lockhart, Yale University",
+        "authors": []
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Denise Quinlan",
+        "affiliation": "Clark Atlanta University"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Ascot",
+    "building": "3rd Floor",
+    "topic": "Comparative Political Behavior and Electoral Systems",
+    "session_title": "Legacies, Socialization, and Political Attitudes",
+    "chair": {
+      "name": "Gregory Love",
+      "affiliation": "University of Mississippi"
+    },
+    "participants": [
+      {
+        "paper_title": "Political Socialization through Social Engagement among Refugees: Evidence from Turkey and Germany",
+        "authors": [
+          {
+            "name": "Sevinc Ozturk",
+            "affiliation": "Cukurova University"
+          },
+          {
+            "name": "Sefa Secen",
+            "affiliation": "Nazareth University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Regime Legacies and Perceptions of Gender Inequality in East and West Germany",
+        "authors": [
+          {
+            "name": "Hans Lueders",
+            "affiliation": "Hoover Institution, Stanford University"
+          },
+          {
+            "name": "Eda Keremoglu",
+            "affiliation": "University of Konstanz"
+          },
+          {
+            "name": "Ludwig Schulze",
+            "affiliation": "European University Institute"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Enemy of My (Historical) Enemy Is My Friend?",
+        "authors": [
+          {
+            "name": "Frances Cayton",
+            "affiliation": "Cornell Univeristy"
+          },
+          {
+            "name": "Isabelle DeSisto",
+            "affiliation": "Princeton University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Gregory Love",
+        "affiliation": "University of Mississippi"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Bridge",
+    "building": "Riverside",
+    "topic": "Undergraduate Research",
+    "session_title": "Race, Identity, and Representation in American Politics",
+    "chair": {
+      "name": "Donovan A. Watts",
+      "affiliation": "Auburn University"
+    },
+    "participants": [
+      {
+        "paper_title": "Lyrical Liberation: How Hip-Hop Champions Black Awareness In America",
+        "authors": [
+          {
+            "name": "Jade Nicole Willingham",
+            "affiliation": "North Carolina Agricultural & Technical State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "PWI vs. HBCU: Impact on Black Students’ Campus Belonging",
+        "authors": [
+          {
+            "name": "Catherine Lenu Fonkwe",
+            "affiliation": "North Carolina"
+          }
+        ]
+      },
+      {
+        "paper_title": "Scientific Racism: Shaping Modern Racial Inequalities in Healthcare, Education, and the Criminal Justice System",
+        "authors": [
+          {
+            "name": "Jasmine Bastien",
+            "affiliation": "North Carolina A&T State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Examining how political identities are formed through intersectionality.",
+        "authors": [
+          {
+            "name": "Eliezer Salas-Mendez",
+            "affiliation": "Student at Tennessee Technological University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Donovan A. Watts",
+        "affiliation": "Auburn University"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Canal",
+    "building": "3rd Floor",
+    "topic": "Public Opinion",
+    "session_title": "Public Support for Democratic Norms",
+    "chair": {
+      "name": "Julie Wronski",
+      "affiliation": "University of Mississippi"
+    },
+    "participants": [
+      {
+        "paper_title": "Bad mood rising? Assessing the dimensionality and measurement equivalence of democratic mood",
+        "authors": [
+          {
+            "name": "Philip Warncke",
+            "affiliation": "University of Limerick"
+          },
+          {
+            "name": "Ryan Carlin",
+            "affiliation": "Georgia State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Defining ‘Normal’ Presidential Conduct: Public Opinion, Executive Power, and Democratic Norms",
+        "authors": [
+          {
+            "name": "Sydney Brake",
+            "affiliation": "University of Massachusetts Amherst"
+          },
+          {
+            "name": "Julia Priya Mohanty",
+            "affiliation": "University of Massachusetts Amherst"
+          }
+        ]
+      },
+      {
+        "paper_title": "Sore Losers? The Impact of the 2024 Election Loss on Democrats' Democratic Values",
+        "authors": [
+          {
+            "name": "Katherine Haenschen",
+            "affiliation": "Northeastern University"
+          },
+          {
+            "name": "Bethany Albertson",
+            "affiliation": "University of Texas at Austin"
+          }
+        ]
+      },
+      {
+        "paper_title": "What Makes Independents Independent? Norms, Values, and Democratic Commitments",
+        "authors": [
+          {
+            "name": "Seongjoon Ahn",
+            "affiliation": "University of Iowa"
+          }
+        ]
+      },
+      {
+        "paper_title": "Faith Under Fire: Public Opinion and the Politics of Repression",
+        "authors": [
+          {
+            "name": "Adwoa Serwaa Appiah",
+            "affiliation": "Louisiana State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Adrien Halliez",
+        "affiliation": "Drake University"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "6:15pm",
+    "room": "Churchill A1",
+    "building": "2nd",
+    "topic": "Program Chair's Panels",
+    "session_title": "KiND WORKSHOP: Qualitative Interviews with Dr. Lea Sgier",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Churchill B1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #7: Repression in Autocracies",
+    "chair": {
+      "name": "Dina Bishara",
+      "affiliation": "Cornell University"
+    },
+    "participants": [
+      {
+        "paper_title": "Why not rebel? How the legacies of authoritarian repression shape electoral politics",
+        "authors": [
+          {
+            "name": "Christopher M. Sullivan",
+            "affiliation": "Louisiana State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Coercion without borders: Authoritarian infiltration, interstate collabo- ration, and strategic repression of dissent abroad",
+        "authors": [
+          {
+            "name": "Howard Liu",
+            "affiliation": "University of South Carolina"
+          }
+        ]
+      },
+      {
+        "paper_title": "Authoritarian foundations: Colonial land, state violence, and the after- lives of Italian rule in Libya",
+        "authors": [
+          {
+            "name": "Reda Tamtam",
+            "affiliation": "Princeton Universiry"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Dina Bishara",
+        "affiliation": "Cornell University"
+      },
+      {
+        "name": "Jun Sudduth",
+        "affiliation": "Indiana University"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Churchill C1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #3: Judges on Apex Courts",
+    "chair": {
+      "name": "Jay Krehbiel",
+      "affiliation": "University at Buffalo"
+    },
+    "participants": [
+      {
+        "paper_title": "Recuse Me? Using the Stevens Papers to Understand Recusal",
+        "authors": [
+          {
+            "name": "Jacob Berg",
+            "affiliation": "West Virginia University"
+          },
+          {
+            "name": "Abigail Hassett",
+            "affiliation": "Transylvania University"
+          },
+          {
+            "name": "Jonathan King",
+            "affiliation": "University of Georgia"
+          },
+          {
+            "name": "Jessica Schoenherr",
+            "affiliation": "University of Georgia"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Crux of the Matter: Issue Salience and Case Selection in the U.S. Supreme Court",
+        "authors": [
+          {
+            "name": "Sahar Abi-Hassan",
+            "affiliation": "The University of Tulsa"
+          },
+          {
+            "name": "Janet Box-Steffensmeier",
+            "affiliation": "The Ohio State University"
+          },
+          {
+            "name": "Dino Christenson",
+            "affiliation": "Washington University in St. Louis"
+          },
+          {
+            "name": "Chandler L'Hommedieu",
+            "affiliation": "The Ohio State University"
+          },
+          {
+            "name": "Adam Perhala",
+            "affiliation": "Northeastern University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Designing Assertiveness: How Institutional Architecture Shapes Constitutional Court Behavior",
+        "authors": [
+          {
+            "name": "Joan-Josep Vallbé",
+            "affiliation": "University of Barcelona"
+          },
+          {
+            "name": "Kálmán Pócza",
+            "affiliation": "Ludovika University of Public Service, Hungary"
+          },
+          {
+            "name": "Gábor Dobos",
+            "affiliation": "Ludovika University of Public Service, Hungary"
+          },
+          {
+            "name": "Attila Gyulai",
+            "affiliation": "Center for Social Sciences, Hungary"
+          }
+        ]
+      },
+      {
+        "paper_title": "Judicial Resurgence in the Shadow of Backsliding",
+        "authors": [
+          {
+            "name": "Lydia Tiede",
+            "affiliation": "University of Houston"
+          }
+        ]
+      },
+      {
+        "paper_title": "Strategy and Supreme Court Decision Announcements",
+        "authors": [
+          {
+            "name": "Morgan Hazelton",
+            "affiliation": "Saint Louis University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Albert Rivero",
+        "affiliation": "University of Virginia"
+      },
+      {
+        "name": "Taraleigh Davis",
+        "affiliation": "Bradley University"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Churchill C2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #10: Immigration attitudes and political behavior",
+    "chair": {
+      "name": "Natalie Chwalisz",
+      "affiliation": "Dickinson College"
+    },
+    "participants": [
+      {
+        "paper_title": "Non - Citizen Voting and Immigrant Belonging",
+        "authors": [
+          {
+            "name": "Megan Dias",
+            "affiliation": "Cornell University"
+          },
+          {
+            "name": "Janelle Wong",
+            "affiliation": "University of Maryland"
+          },
+          {
+            "name": "Amena Talajawala",
+            "affiliation": "The George Washington University Law School"
+          },
+          {
+            "name": "Ron Hayduk",
+            "affiliation": "San Francisco State University"
+          },
+          {
+            "name": "Kathleen Coll",
+            "affiliation": "University of San Francisco"
+          },
+          {
+            "name": "Helen Ho",
+            "affiliation": "Chinese for Affirmative Action"
+          },
+          {
+            "name": "Marni Fritz",
+            "affiliation": "University of Illinois Chicago"
+          },
+          {
+            "name": "Grace Hartzell",
+            "affiliation": "The University of Texas at Austin"
+          }
+        ]
+      },
+      {
+        "paper_title": "It's Not Threat. It's Fairness: Explaining immigration policy attitudes in the United States",
+        "authors": [
+          {
+            "name": "Taylor Trummel",
+            "affiliation": "University of California Santa Barbara"
+          }
+        ]
+      },
+      {
+        "paper_title": "Dangerous Stereotypes: Correcting Misperceptions about Undocumented Immigrants to Promote Inclusionary Preferences",
+        "authors": [
+          {
+            "name": "Natán Skigin",
+            "affiliation": "University of Georgia"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Zhejun Qiu",
+        "affiliation": "University of Pittsburgh"
+      },
+      {
+        "name": "Sara Mitchell",
+        "affiliation": "University of Iowa"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Churchill D",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #1: Election Officials, Staffing, and Workload",
+    "chair": {
+      "name": "Anita Manion",
+      "affiliation": "University of Missouri, St. Louis"
+    },
+    "participants": [
+      {
+        "paper_title": "Poll Workers and Civic Duty",
+        "authors": [
+          {
+            "name": "Daniel Smith",
+            "affiliation": "University of Florida"
+          },
+          {
+            "name": "Juliana Mucci",
+            "affiliation": "University of Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Effect of Workload on Public Official Retention: Evidence from Local Election Official",
+        "authors": [
+          {
+            "name": "Joshua Ferrer",
+            "affiliation": "American University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Examining Election Administrator Training: Approaches, Challenges, and Recommendations for Local Election Offices",
+        "authors": [
+          {
+            "name": "Shaniqua Williams",
+            "affiliation": "West Virginia University"
+          }
+        ]
+      },
+      {
+        "paper_title": "How Do Local Certification Officials Evaluate Their Elections? A Survey of Michigan County Canvassers",
+        "authors": [
+          {
+            "name": "Corwin Smidt",
+            "affiliation": "Michigan State University"
+          },
+          {
+            "name": "Lin Cabada",
+            "affiliation": "Michigan State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Paul Manson",
+        "affiliation": "Portland State University"
+      },
+      {
+        "name": "A panel discussing election officials",
+        "affiliation": "staffing, and workload."
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Commerce",
+    "building": "3rd",
+    "topic": "International Conflict and Security",
+    "session_title": "Formal Models of Conflict",
+    "chair": {
+      "name": "Jeff Carter",
+      "affiliation": "Appalachian State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Explaining Coercive Success: Commitment Devices, Socially Constructed Beliefs, and Time Horizons",
+        "authors": [
+          {
+            "name": "Steven Beard",
+            "affiliation": "University of Colorado"
+          }
+        ]
+      },
+      {
+        "paper_title": "Hawks and Doves at War",
+        "authors": [
+          {
+            "name": "Jeff Carter",
+            "affiliation": "Appalachian State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Politics of War Mobilization and Conflict Initiation",
+        "authors": [
+          {
+            "name": "Joshua Landry",
+            "affiliation": "Oklahoma State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Jeff Carter",
+        "affiliation": "Appalachian State University"
+      },
+      {
+        "name": "Steven Beard",
+        "affiliation": "University of Colorado"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Durham",
+    "building": "3rd Floor",
+    "topic": "Program Chair's Panels",
+    "session_title": "Comparative Political Parties, Policy Making, and Legislative Politics",
+    "chair": {
+      "name": "Lauren Candia Shaffer",
+      "affiliation": "California State University, Northridge"
+    },
+    "participants": [
+      {
+        "paper_title": "On the Functioning of Pre-Modern Legislative and Advisory Bodies: Evidence from the Roman Senate",
+        "authors": [
+          {
+            "name": "Thomas Gray",
+            "affiliation": "The University of Texas at Dallas"
+          }
+        ]
+      },
+      {
+        "paper_title": "Results From a Natural Experiment Regarding the Introduction of Bicycles in Sub-Sarahan Africa",
+        "authors": [
+          {
+            "name": "Daniel Joseph Lane",
+            "affiliation": "Northeastern Illinois University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Return of the Populists in Central Europe (Case of Slovakia)",
+        "authors": [
+          {
+            "name": "Peter Csanyi",
+            "affiliation": "Bratislava University of Economics and Business"
+          }
+        ]
+      },
+      {
+        "paper_title": "Testing the Impact of New Candidates on Party Vote Share in South Korea",
+        "authors": [
+          {
+            "name": "Mi-son Kim",
+            "affiliation": "University of Texas Rio Grande Valley"
+          },
+          {
+            "name": "Dongkyu Kim",
+            "affiliation": "University of Texas Rio Grande Valley"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Dale Smith",
+        "affiliation": "UNC Charlotte"
+      },
+      {
+        "name": "Lauren Candia Shaffer",
+        "affiliation": "California State University, Northridge"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Eglinton Winton",
+    "building": "",
+    "topic": "Political Psychology",
+    "session_title": "Political Psychology Potpourri",
+    "chair": {
+      "name": "Mandi Bailey",
+      "affiliation": "American University"
+    },
+    "participants": [
+      {
+        "paper_title": "Bolstering or Burdening? Causal Evidence of Memory Priming on Political Approval",
+        "authors": [
+          {
+            "name": "Yue Hu",
+            "affiliation": "Tsinghua University"
+          },
+          {
+            "name": "Haofeng Ma",
+            "affiliation": "The Chinese University of Hong Kong, Shenzhen"
+          }
+        ]
+      },
+      {
+        "paper_title": "Empathy Through Contact: How Adulthood Interactions Foster Intergroup Cooperation",
+        "authors": [
+          {
+            "name": "Jair Moreira",
+            "affiliation": "University of Pennsylvania"
+          }
+        ]
+      },
+      {
+        "paper_title": "Reducing Prejudice Through Stories and Facts: A Survey Experiment on Migrant Attitudes in Chile",
+        "authors": [
+          {
+            "name": "Catalina Vega Mendez",
+            "affiliation": "University of Notre Dame"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Stability of Ideological Attachments Beyond Liberal and Conservative",
+        "authors": [
+          {
+            "name": "Andrew Trexler",
+            "affiliation": "University of Wisconsin-Madison"
+          },
+          {
+            "name": "Christopher Johnston",
+            "affiliation": "Duke University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Who Is Fit to Serve? Public Tolerance for Psychological Strain in Diplomacy and National Security",
+        "authors": [
+          {
+            "name": "Kelsey Larsen",
+            "affiliation": "University of Central Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "Who Is Fit to Serve? Public Tolerance for Psychological Strain in Diplomacy and National Security",
+        "authors": [
+          {
+            "name": "Kelsey Larsen",
+            "affiliation": "University of Central Florida"
+          }
+        ]
+      }
+    ],
+    "discussants": []
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Magazine",
+    "building": "3rd",
+    "topic": "Political Theory",
+    "session_title": "The Politics of Culture, Communication and Finitude in Nietzsche, Jaspers and Arendt",
+    "chair": {
+      "name": "Constantine Vassiliou",
+      "affiliation": "University of Colorado, Colorado Springs"
+    },
+    "participants": [
+      {
+        "paper_title": "Hannah Arendt and the Co-Verification of Reality through Action",
+        "authors": []
+      },
+      {
+        "paper_title": "Natalie Moreira, Baylor University",
+        "authors": []
+      },
+      {
+        "paper_title": "Nietzsche as Culture Physician: Nietzsche on “Philosophy in the Tragic Age of the Greeks” and his self-",
+        "authors": []
+      },
+      {
+        "paper_title": "understanding as “the last disciple of the philosopher Dionysus”",
+        "authors": []
+      },
+      {
+        "paper_title": "Dwight Allman, Baylor University",
+        "authors": []
+      },
+      {
+        "paper_title": "Karl Jaspers and the Politics of Finitude",
+        "authors": []
+      },
+      {
+        "paper_title": "Lee Ward, Baylor University",
+        "authors": []
+      },
+      {
+        "paper_title": "Beyond the Ascetic Cocoon: An Examination of the Science of Politics in Nietzsche’s Genealogy of",
+        "authors": []
+      },
+      {
+        "paper_title": "Morals",
+        "authors": []
+      },
+      {
+        "paper_title": "Paul Kirkland, Carthage College",
+        "authors": []
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Boleslaw Kabala",
+        "affiliation": "Tarleton State University"
+      },
+      {
+        "name": "Twentieth-century German political philosophy was profoundly influenced by Friedrich Nietzsche’s",
+        "affiliation": ""
+      },
+      {
+        "name": "Tragedy by examining his early notes and unpublished writings (the Nachlass) and finds the roots of",
+        "affiliation": ""
+      },
+      {
+        "name": "Nietzsche’s adoption of ancient Greek tragic culture",
+        "affiliation": "which would prove pivotal in his embrace of the"
+      },
+      {
+        "name": "Nietzsche sought to fashion a new appearance for philosophy that does not require the mask of asceticism.",
+        "affiliation": ""
+      },
+      {
+        "name": "Natalie Moreira engages the question of the philosophic meaning of culture by highlighting Arendt’s",
+        "affiliation": ""
+      },
+      {
+        "name": "Ward argues that this doyen of abstract existentialist philosophers actually had a very moderate political",
+        "affiliation": ""
+      },
+      {
+        "name": "Adrian Vermeule. Taken altogether",
+        "affiliation": "the papers in this panel each highlight aspects of the relation of"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Parish",
+    "building": "3rd Floor",
+    "topic": "American Political Development",
+    "session_title": "The South and the Architecture of Democracy",
+    "chair": {
+      "name": "Jeff Selinger",
+      "affiliation": "Bowdoin College"
+    },
+    "participants": [
+      {
+        "paper_title": "Southern Public Architecture and the Emergence of the American Capitol Type",
+        "authors": [
+          {
+            "name": "Keith Gaddie",
+            "affiliation": "Texas Christian University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Creation of the Texas Courthouse Type",
+        "authors": [
+          {
+            "name": "James Riddlesperger",
+            "affiliation": "Texas Christian University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Contentious Spaces and Memorialization of the Confederacy",
+        "authors": [
+          {
+            "name": "Scott Huffmon",
+            "affiliation": "Winthrop University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Context and Culture in Southern Mural Art",
+        "authors": [
+          {
+            "name": "Jocelyn Evans",
+            "affiliation": "University of West Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "This panel presents scholarship on the development of modern American public architecture in the context",
+        "authors": []
+      },
+      {
+        "paper_title": "of the American South. Papers engage topics including the relationship of the settlement frontier to the",
+        "authors": []
+      },
+      {
+        "paper_title": "design of courthouses and public spaces; the emergence of the American capitol type from Southern",
+        "authors": []
+      },
+      {
+        "paper_title": "architecture; the evolution and meaning of southern public art; and Confederate monuments and",
+        "authors": []
+      },
+      {
+        "paper_title": "memorializations.",
+        "authors": []
+      },
+      {
+        "paper_title": "memorializations.",
+        "authors": []
+      }
+    ],
+    "discussants": []
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:00pm",
+    "end_time": "3:15pm",
+    "room": "Steering",
+    "building": "Riverside",
+    "topic": "Presidential and Executive Politics",
+    "session_title": "Presidential Power and Leadership II",
+    "chair": {
+      "name": "Brian Robert King",
+      "affiliation": "Ohio Northern University"
+    },
+    "participants": [
+      {
+        "paper_title": "Presidential Leadership and Nationalized Elections in the U.S. Congress",
+        "authors": [
+          {
+            "name": "Patrick Buhr",
+            "affiliation": "Vanderbilt University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Bill Signing Ceremonies and the Demand for Lawmaking Credit",
+        "authors": [
+          {
+            "name": "Kevin Evans",
+            "affiliation": "Florida International University"
+          },
+          {
+            "name": "Bryan Marshall",
+            "affiliation": "Miami University"
+          }
+        ]
+      },
+      {
+        "paper_title": "You Can't Always Get What You Want . . . or Need: Personnel Allocation at FEMA",
+        "authors": [
+          {
+            "name": "Fred Gui",
+            "affiliation": "LSU"
+          },
+          {
+            "name": "Lawrence Rothenberg",
+            "affiliation": "University of Rochester"
+          },
+          {
+            "name": "Junlong Aaron Zhou",
+            "affiliation": "Tencent Associates"
+          }
+        ]
+      },
+      {
+        "paper_title": "Task Orientation and Conceptual Complexity: An Interaction Analysis of British Prime Ministerial Tenure",
+        "authors": [
+          {
+            "name": "Sam Rohrer",
+            "affiliation": "University of North Georgia"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Justin Vaughn",
+        "affiliation": "Coastal Carolina University"
+      },
+      {
+        "name": "Michael Ashley Julius",
+        "affiliation": "Coastal Carolina University"
+      }
+    ]
+  },
+  {
+    "session_id": "2500",
+    "day": "Thursday",
+    "start_time": "2:30pm",
+    "end_time": "5:00pm",
+    "room": "Marlborough      A lounge available for all students (both graduate and undergraduate) to take a break and enjoy light",
+    "building": "",
+    "topic": "Meetings",
+    "session_title": "Student Lounge - Thursday",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Ascot",
+    "building": "3rd Floor",
+    "topic": "Comparative Political Behavior and Electoral Systems",
+    "session_title": "Political Participation in Comparative Context",
+    "chair": {
+      "name": "Sayan Banerjee",
+      "affiliation": "Texas Tech University"
+    },
+    "participants": [
+      {
+        "paper_title": "E-Voting and Abstention: The Portuguese Experience",
+        "authors": [
+          {
+            "name": "Cristina Aragao Seia",
+            "affiliation": "CEJEIAUniversidade Lusiada - Faculdade de Direito"
+          }
+        ]
+      },
+      {
+        "paper_title": "Non-partisan Elections Observers and Electoral Integrity: A Study of the Role of PVT in Citizens’ Trust in Elections",
+        "authors": [
+          {
+            "name": "Nicholas Nathan Kerr",
+            "affiliation": "University of Florida"
+          },
+          {
+            "name": "Md Sahidul Islam",
+            "affiliation": "University of Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "Party System-Voter Congruence: Effects on Political Participation Across Democracies",
+        "authors": [
+          {
+            "name": "Jiseon Chang",
+            "affiliation": "Tecnológico de Monterrey"
+          },
+          {
+            "name": "Sarah Heise",
+            "affiliation": "University of Tennessee at Chattanooga"
+          }
+        ]
+      },
+      {
+        "paper_title": "Synching Turnout: The effects of synchronizing federal and state elections in Mexico",
+        "authors": [
+          {
+            "name": "Juan David Irigoyen Borunda",
+            "affiliation": "Florida State University"
+          },
+          {
+            "name": "Evan Meyer",
+            "affiliation": "N/A"
+          }
+        ]
+      },
+      {
+        "paper_title": "Trashing-not-Trashing Institutions: How Antidemocratic Rhetoric Increases Turnout",
+        "authors": [
+          {
+            "name": "Georgy Egorov",
+            "affiliation": "Northwestern University"
+          },
+          {
+            "name": "Konstantin Sonin",
+            "affiliation": "University of Chicago, Harris School of Public Policy"
+          },
+          {
+            "name": "Alexei Zakharov",
+            "affiliation": "University of Chicago"
+          },
+          {
+            "name": "2600",
+            "affiliation": ""
+          }
+        ]
+      },
+      {
+        "paper_title": "Trashing-not-Trashing Institutions: How Antidemocratic Rhetoric Increases Turnout",
+        "authors": [
+          {
+            "name": "Georgy Egorov",
+            "affiliation": "Northwestern University"
+          },
+          {
+            "name": "Konstantin Sonin",
+            "affiliation": "University of Chicago, Harris School of Public Policy"
+          },
+          {
+            "name": "Alexei Zakharov",
+            "affiliation": "University of Chicago"
+          },
+          {
+            "name": "2600",
+            "affiliation": ""
+          }
+        ]
+      }
+    ],
+    "discussants": []
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Bridge",
+    "building": "Riverside   Participants",
+    "topic": "Undergraduate Research",
+    "session_title": "Gender, Equality, and Representation",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Cambridge",
+    "building": "2nd",
+    "topic": "Comparative Politics of Developing Areas",
+    "session_title": "Infrastructure, Technology, and Politics",
+    "chair": {
+      "name": "John H Barnett",
+      "affiliation": "Emporia State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Blue Economy in Southeast Asia: Malaysia and Thailand",
+        "authors": [
+          {
+            "name": "John H Barnett",
+            "affiliation": "Emporia State University"
+          },
+          {
+            "name": "Khanh Huu Nguyen",
+            "affiliation": "Vietnam Instititute for Develomment Strategies"
+          }
+        ]
+      },
+      {
+        "paper_title": "Electrifying Rural Industrialization",
+        "authors": [
+          {
+            "name": "Renhao Ye",
+            "affiliation": "University of California San Diego"
+          }
+        ]
+      },
+      {
+        "paper_title": "Internet Access and Political Engagement: Evidence from South Africa",
+        "authors": [
+          {
+            "name": "Georgiy Syunyaev",
+            "affiliation": "Vanderbilt University"
+          },
+          {
+            "name": "Anna Wilke",
+            "affiliation": "New York University"
+          },
+          {
+            "name": "Alexis Jang",
+            "affiliation": "Washington University in St. Louis"
+          },
+          {
+            "name": "Benjamin Laughlin",
+            "affiliation": "New York University in Abu Dhabi"
+          },
+          {
+            "name": "Kholekile Malindi",
+            "affiliation": "Stellenbosch University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Local Government-Owned Technology Platform Companies: Data Marketization and State Capacity Building under China's Government-Led Digital Transformation Local Government-Owned Tech Platforms: State Capacity Building in China",
+        "authors": [
+          {
+            "name": "XINYAO wang",
+            "affiliation": "+86 18518985226"
+          },
+          {
+            "name": "Renhao Ye",
+            "affiliation": "University of California San Diego"
+          }
+        ]
+      },
+      {
+        "paper_title": "How NGOs Reshape the State: Evidence from Municipal Spending and Employment in Brazil",
+        "authors": [
+          {
+            "name": "Alexander Ray Dean",
+            "affiliation": "Vanderbilt University"
+          },
+          {
+            "name": "2600",
+            "affiliation": ""
+          }
+        ]
+      },
+      {
+        "paper_title": "How NGOs Reshape the State: Evidence from Municipal Spending and Employment in Brazil",
+        "authors": [
+          {
+            "name": "Alexander Ray Dean",
+            "affiliation": "Vanderbilt University"
+          },
+          {
+            "name": "2600",
+            "affiliation": ""
+          }
+        ]
+      }
+    ],
+    "discussants": []
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Canal",
+    "building": "3rd Floor",
+    "topic": "Public Opinion",
+    "session_title": "Author Meets Critics-The Politics of Individualism",
+    "chair": {
+      "name": "Kelly D. Patterson",
+      "affiliation": "Brigham Young University"
+    },
+    "participants": [],
+    "discussants": [
+      {
+        "name": "Julie Wronski",
+        "affiliation": "University of Mississippi"
+      },
+      {
+        "name": "Bethany Albertson",
+        "affiliation": "University of Texas at Austin"
+      },
+      {
+        "name": "Lee Ward",
+        "affiliation": "Baylor University"
+      },
+      {
+        "name": "Julia Azari",
+        "affiliation": "Marquette University"
+      },
+      {
+        "name": "Individualism is a quintessential American value",
+        "affiliation": "manifesting in emphases on hard work and economic"
+      },
+      {
+        "name": "Politics of Individualism (2025",
+        "affiliation": "Oxford University Press) emphasizes the importance of moral autonomy"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Churchill B1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #7: Wartime Politics",
+    "chair": {
+      "name": "Milan Svolik",
+      "affiliation": "Yale University"
+    },
+    "participants": [
+      {
+        "paper_title": "The political consequences of wartime casualties in Russia",
+        "authors": [
+          {
+            "name": "Isabelle DeSisto",
+            "affiliation": "Princeton University"
+          },
+          {
+            "name": "Laura Howells",
+            "affiliation": "Princeton University"
+          },
+          {
+            "name": "Grigore Pop-Eleches",
+            "affiliation": "Princeton University"
+          },
+          {
+            "name": "Jacob Tucker",
+            "affiliation": "New York University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Reading Orwell in Moscow",
+        "authors": [
+          {
+            "name": "Natalia Vasilenok",
+            "affiliation": "Stanford University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Blame attribution in an autocracy: Survey evidence from Russia",
+        "authors": [
+          {
+            "name": "Mikhail Turchenko",
+            "affiliation": "Northwestern University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Milan Svolik",
+        "affiliation": "Yale University"
+      },
+      {
+        "name": "Valeria Umanets",
+        "affiliation": "Tulane University"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Churchill B2",
+    "building": "2nd   Participants",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #8: Disasters, Violence, and Repression: Complex Interactions and Social Implications",
+    "chair": {},
+    "participants": [],
+    "discussants": [
+      {
+        "name": "Alex Greer",
+        "affiliation": "University at Albany"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Churchill C1",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #3: Judicial Procedures",
+    "chair": {
+      "name": "Michael J Nelson",
+      "affiliation": "Penn State"
+    },
+    "participants": [
+      {
+        "paper_title": "The Effect of Film on Vignette Designs",
+        "authors": [
+          {
+            "name": "Jeff Staton",
+            "affiliation": "Emory University"
+          },
+          {
+            "name": "Devon Thurman",
+            "affiliation": "Emory University"
+          },
+          {
+            "name": "Dehanza Rogers",
+            "affiliation": "Emory University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Sound Judgment: Gender, Power, and Public Perceptions of Supreme Court Oral Arguments",
+        "authors": [
+          {
+            "name": "Christine Bird",
+            "affiliation": "Oklahoma State University"
+          },
+          {
+            "name": "Rachel Houson",
+            "affiliation": "Texas Christian University"
+          },
+          {
+            "name": "Marcy Shieh",
+            "affiliation": "Miami University in Ohio"
+          }
+        ]
+      },
+      {
+        "paper_title": "Injunction Junction: The Supreme Court and the Politics of Nationwide Relie",
+        "authors": [
+          {
+            "name": "Miles Armaly",
+            "affiliation": "University of Mississippi"
+          },
+          {
+            "name": "Jonathan King",
+            "affiliation": "University of Georgia"
+          },
+          {
+            "name": "Elizabeth Lane",
+            "affiliation": "North Carolina State University"
+          },
+          {
+            "name": "Jessica Schoenherr",
+            "affiliation": "University of Georgia"
+          }
+        ]
+      },
+      {
+        "paper_title": "Elite Cues, Media Frames, and Public Opinion on Nationwide Injunctions",
+        "authors": [
+          {
+            "name": "Anna Fleming",
+            "affiliation": "Mercer University"
+          },
+          {
+            "name": "Matthew Montgomery",
+            "affiliation": "Texas Christian University"
+          },
+          {
+            "name": "Natalie Rogol",
+            "affiliation": "Rhode Island College"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Chris Krewson",
+        "affiliation": "Brigham Young University"
+      },
+      {
+        "name": "Martin Gandur",
+        "affiliation": "Florida State University"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Churchill C2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #10: Bordering Practices and Migration Management (Workshop Format)",
+    "chair": {
+      "name": "Alexander Kustov",
+      "affiliation": "UNC Charlotte"
+    },
+    "participants": [
+      {
+        "paper_title": "A Nation of Laws? The Perception of Choice and Unauthorized Migration",
+        "authors": [
+          {
+            "name": "Miranda Simon",
+            "affiliation": "University of Essex"
+          },
+          {
+            "name": "Cassilde Schwartz",
+            "affiliation": "Royal Holloway, University of London"
+          }
+        ]
+      },
+      {
+        "paper_title": "Safe and Dignified Repatriation: Evidence from Health and Safety Interventions Among Returnees",
+        "authors": [
+          {
+            "name": "Christopher Blair",
+            "affiliation": "Princeton University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Disrupted Aid, Displaced Lives: Unraveling the Impact of Refugee Aid Cuts",
+        "authors": [
+          {
+            "name": "Shelby Carvalho",
+            "affiliation": "Stanford University"
+          },
+          {
+            "name": "Guy Grossman",
+            "affiliation": "University of Pennsylvania"
+          },
+          {
+            "name": "Yang-Yang Zhou",
+            "affiliation": "Dartmouth College"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Alexander Kustov",
+        "affiliation": "UNC Charlotte"
+      },
+      {
+        "name": "Miranda Simon",
+        "affiliation": "University of Essex"
+      },
+      {
+        "name": "Christopher Blair",
+        "affiliation": "Princeton University"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Churchill D",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #1: Roundtable - Celebrating the Life and Work of Bob Stein",
+    "chair": {
+      "name": "Lonna Atkeson",
+      "affiliation": "Florida State University"
+    },
+    "participants": [],
+    "discussants": [
+      {
+        "name": "Jan Leighley",
+        "affiliation": "National Science Foundation"
+      },
+      {
+        "name": "Charles Stewart III",
+        "affiliation": "MIT"
+      },
+      {
+        "name": "Paul Gronke",
+        "affiliation": "Reed College"
+      },
+      {
+        "name": "Tova Wang",
+        "affiliation": "Harvard University"
+      },
+      {
+        "name": "Johanna Dunaway",
+        "affiliation": "Syracuse university"
+      },
+      {
+        "name": "Greg Vonnahme",
+        "affiliation": "Univ. of Missouri-Kansas City"
+      },
+      {
+        "name": "A roundtable celebrating the life and work of Bob Stein.",
+        "affiliation": ""
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Commerce",
+    "building": "3rd",
+    "topic": "International Conflict and Security",
+    "session_title": "Great Power Conflict",
+    "chair": {
+      "name": "Robert M Farley",
+      "affiliation": "University of Kentucky"
+    },
+    "participants": [
+      {
+        "paper_title": "Security Dilemma in the Taiwan Strait",
+        "authors": [
+          {
+            "name": "Minyi Jiang",
+            "affiliation": "American University in Cairo"
+          }
+        ]
+      },
+      {
+        "paper_title": "System Polarity and Irredentism",
+        "authors": [
+          {
+            "name": "Harris Mylonas",
+            "affiliation": "George Washington University"
+          },
+          {
+            "name": "David Siroky",
+            "affiliation": "University of Florida"
+          },
+          {
+            "name": "Christopher Hale",
+            "affiliation": "University of Alabama"
+          }
+        ]
+      },
+      {
+        "paper_title": "Twentieth century challenges to US dominance in Latin America and lessons for the 21st century",
+        "authors": [
+          {
+            "name": "Thomas Nisley",
+            "affiliation": "Kennesaw State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Understanding Motivation of war initiator: regime dyad and window logic",
+        "authors": [
+          {
+            "name": "Daehyeon Kang",
+            "affiliation": "Sogang University"
+          },
+          {
+            "name": "Youngho Cho",
+            "affiliation": "Sogang University"
+          }
+        ]
+      },
+      {
+        "paper_title": "“Vectors of Cooperation, Vectors of Conflict: A Complex Systems Approach to Modeling Conflict Probability and the Collapse of Complex Interdependence”",
+        "authors": [
+          {
+            "name": "Mark Vincent Reedy",
+            "affiliation": "UC Davis"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Robert M Farley",
+        "affiliation": "University of Kentucky"
+      },
+      {
+        "name": "Addison Huygens",
+        "affiliation": "Tulane Unviersity"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Eglinton Winton",
+    "building": "",
+    "topic": "Political Psychology",
+    "session_title": "Affective Polarization",
+    "chair": {
+      "name": "Mandi Bailey",
+      "affiliation": "American University"
+    },
+    "participants": [
+      {
+        "paper_title": "Breaking the Balance: Asymmetric Negative Voting in the 2020 Presidential Election",
+        "authors": [
+          {
+            "name": "Bang Quan Zheng",
+            "affiliation": "University of Texas at Austin"
+          }
+        ]
+      },
+      {
+        "paper_title": "Bridging the gap: How mass-elite affective polarization congruence affects democratic attitudes",
+        "authors": [
+          {
+            "name": "Fatih Erol",
+            "affiliation": "University of Idaho"
+          }
+        ]
+      },
+      {
+        "paper_title": "Party vs Policy: Policy Importance as a Moderator of the Causes of Partisan Animosity",
+        "authors": [
+          {
+            "name": "John Grady Anderson",
+            "affiliation": "Florida State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Quantitative Ethnography and Affective Polarization",
+        "authors": [
+          {
+            "name": "Eric Hamilton",
+            "affiliation": "Pepperdine University"
+          },
+          {
+            "name": "Liane Weintraub",
+            "affiliation": "Pepperdine University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Affective Polarization and Democratic Erosion: Evidence from the United States",
+        "authors": [
+          {
+            "name": "S. Erdem Aytaç",
+            "affiliation": "Koç University"
+          },
+          {
+            "name": "Paul Teas",
+            "affiliation": "University of Chicago"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Maya Novak-Herzog",
+        "affiliation": "Centre College"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Magazine",
+    "building": "3rd",
+    "topic": "Political Theory",
+    "session_title": "In Search of Homonoia: Political Trust in 21st Century America",
+    "chair": {
+      "name": "David Whitney",
+      "affiliation": "Nicholls State University"
+    },
+    "participants": [
+      {
+        "paper_title": "“I am a nationalist!” “I am a democratic socialist!” “I am a classical liberal?”",
+        "authors": [
+          {
+            "name": "Samuel Sprunk",
+            "affiliation": "Nicholls State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Let there be Darkness? Why Science and the Academy are losing ground in 21st century America.",
+        "authors": [
+          {
+            "name": "David Whitney",
+            "affiliation": "Nicholls State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "The first quarter of the 21st century has been marked by a steady decline of trust in institutions, extending",
+        "authors": []
+      },
+      {
+        "paper_title": "beyond the government to universities, churches, and science. Increased polarization has accompanied",
+        "authors": []
+      },
+      {
+        "paper_title": "this loss of trust, as an appreciable number of citizens now view their fellow citizens as enemies. This",
+        "authors": []
+      },
+      {
+        "paper_title": "panel seeks to identify some of the causes of this decline, with an emphasis on various \"isms.\" Potential",
+        "authors": []
+      },
+      {
+        "paper_title": "solutions will also be examined. 2600",
+        "authors": []
+      },
+      {
+        "paper_title": "solutions will also be examined. 2600",
+        "authors": []
+      }
+    ],
+    "discussants": []
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Newberry",
+    "building": "3rd",
+    "topic": "Local and Urban Politics",
+    "session_title": "Urban Governance",
+    "chair": {
+      "name": "Kyle Alexander Van Rensselaer",
+      "affiliation": "New York University"
+    },
+    "participants": [
+      {
+        "paper_title": "Community Resilience Assessment of Local Politics in Southeast Texas",
+        "authors": [
+          {
+            "name": "Dan Qi",
+            "affiliation": "Lamar University"
+          }
+        ]
+      },
+      {
+        "paper_title": "“Whataburger, Waffle House, HEB, and the Pentagon Pizza Index: Citizen Reliance on Informal Institutions”",
+        "authors": [
+          {
+            "name": "Sarah Perez",
+            "affiliation": "University of Texas Rio Grande Valley"
+          },
+          {
+            "name": "Natasha Altema McNeely",
+            "affiliation": "University of North Texas"
+          }
+        ]
+      },
+      {
+        "paper_title": "Inclusion as Access: A correspondence experiment on public officials",
+        "authors": [
+          {
+            "name": "Doug Murdoch",
+            "affiliation": "Southern Utah University"
+          },
+          {
+            "name": "Naomi Nubin-Sellers",
+            "affiliation": "Dartmouth College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Sticking to the Plan: How Pre-1989 Urban Planning Institutions Survived the Collapse of Communism",
+        "authors": [
+          {
+            "name": "Conor O'Dwyer",
+            "affiliation": "University of Florida"
+          },
+          {
+            "name": "Václav Orcígr",
+            "affiliation": "Czech Academy of Sciences"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Block Party is Over: Gentrification's Impact on Black Community Networks in New York City",
+        "authors": [
+          {
+            "name": "Nia Jordan McInnis",
+            "affiliation": "North Carolina A&T State University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Kyle Alexander Van Rensselaer",
+        "affiliation": "New York University"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Parish",
+    "building": "3rd Floor",
+    "topic": "American Political Development",
+    "session_title": "Political Economy, Public Goods, and Changing Political Landscapes",
+    "chair": {
+      "name": "Kendrick Roberson",
+      "affiliation": "Pepperdine University"
+    },
+    "participants": [
+      {
+        "paper_title": "Constitutionalizing Property, Unevenly: Political Economy and Democratization during the Early Republic",
+        "authors": [
+          {
+            "name": "Jeff Selinger",
+            "affiliation": "Bowdoin College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Old Times There Are Not Forgotten: The Legacy of Southern Populism for Public Goods Provision",
+        "authors": [
+          {
+            "name": "Daniel Blinderman",
+            "affiliation": "University of Virginia"
+          }
+        ]
+      },
+      {
+        "paper_title": "Political Dissent and Authoritarian Consolidation in the Louisiana Sugar Industry 1892-1898",
+        "authors": [
+          {
+            "name": "Daniel Blinderman",
+            "affiliation": "University of Virginia"
+          }
+        ]
+      },
+      {
+        "paper_title": "Toward a Spending Paradox: Fiscal Politics from the New Deal to the Tea Party",
+        "authors": [
+          {
+            "name": "Katherine Krimmel",
+            "affiliation": "Barnard College"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Kendrick Roberson",
+        "affiliation": "Pepperdine University"
+      }
+    ]
+  },
+  {
+    "session_id": "2600",
+    "day": "Thursday",
+    "start_time": "3:30pm",
+    "end_time": "4:45pm",
+    "room": "Steering",
+    "building": "Riverside",
+    "topic": "Program Chair's Panels",
+    "session_title": "International Institutional Rules and Procedures",
+    "chair": {
+      "name": "DIPIKA PANNU",
+      "affiliation": "LOUISIANA STATE UNIVERSITY"
+    },
+    "participants": [
+      {
+        "paper_title": "Ambedkar for All: Revisiting His Economic, Caste, Development, and Social Thought in Contemporary India",
+        "authors": [
+          {
+            "name": "AYUSH KUMAR",
+            "affiliation": "Dr. B.R. AMBEDKAR UNIVERSITY OF DELHI"
+          },
+          {
+            "name": "PROF TANUJA SINGH",
+            "affiliation": "Dr. B.R. Ambedkar University Delhi"
+          }
+        ]
+      },
+      {
+        "paper_title": "Horizontal Accountability and Legislative Oversight in Nigeria’s sub-national Lagos and Kogi (2015 and 2023)",
+        "authors": [
+          {
+            "name": "Idris Oladapo Oladokun",
+            "affiliation": "Federal University, Lokoja-Nigeria"
+          }
+        ]
+      },
+      {
+        "paper_title": "Working to Rule: The effect of electoral rules on party unity and substantive focus",
+        "authors": [
+          {
+            "name": "Betul Demirkaya",
+            "affiliation": "University of Kentucky"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "DIPIKA PANNU",
+        "affiliation": "LOUISIANA STATE UNIVERSITY"
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Ascot",
+    "building": "3rd Floor",
+    "topic": "Comparative Political Behavior and Electoral Systems",
+    "session_title": "Populism and Extremist Parties",
+    "chair": {
+      "name": "Dale Smith",
+      "affiliation": "UNC Charlotte"
+    },
+    "participants": [
+      {
+        "paper_title": "Elite Rhetoric and the Normalization of Extremist Parties: Evidence from Germany",
+        "authors": [
+          {
+            "name": "James Stewart",
+            "affiliation": "Florida State University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Measuring Radical Supply: A Shift-Share Design for Online Extremist Influence",
+        "authors": [
+          {
+            "name": "Arne Holverscheid",
+            "affiliation": "Northwestern University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Party Ideology and the Gender Gap in Candidate Resiliency",
+        "authors": [
+          {
+            "name": "Agustin Vallejo",
+            "affiliation": "University of Houston"
+          }
+        ]
+      },
+      {
+        "paper_title": "Terrorism and Populist Vote Shares: A Global Analysis",
+        "authors": [
+          {
+            "name": "Onat Kolcu",
+            "affiliation": "University of Kansas"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Emily Beaulieu",
+        "affiliation": "University of South Carolina"
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Bridge",
+    "building": "Riverside",
+    "topic": "Undergraduate Research",
+    "session_title": "Policy, Inequality, and Governance Challenges",
+    "chair": {
+      "name": "Geoffrey Peterson",
+      "affiliation": "University of Wisconsin-Eau Claire"
+    },
+    "participants": [
+      {
+        "paper_title": "Closeness and Presidential Elections: Perception and Reality",
+        "authors": [
+          {
+            "name": "Hannah Schindler",
+            "affiliation": "University of Wisconsin-Eau Claire"
+          },
+          {
+            "name": "Emma Steffen",
+            "affiliation": "University of Wisconsin-Eau Claire"
+          },
+          {
+            "name": "Geoffrey Peterson",
+            "affiliation": "University of Wisconsin-Eau Claire"
+          }
+        ]
+      },
+      {
+        "paper_title": "Disaster Planning in the Gulf South",
+        "authors": [
+          {
+            "name": "Ann Rose Steinfeld",
+            "affiliation": "Sewanee"
+          }
+        ]
+      },
+      {
+        "paper_title": "Influence of Online Sports Betting Advertising and Government",
+        "authors": [
+          {
+            "name": "William Evans",
+            "affiliation": "North Carolina A&T"
+          }
+        ]
+      },
+      {
+        "paper_title": "Reading Between the Lines: Educational Equity and Book Access in Northwest Arkansas",
+        "authors": [
+          {
+            "name": "Addie Jones",
+            "affiliation": "University of Arkansas"
+          }
+        ]
+      },
+      {
+        "paper_title": "Balancing Humanitarian and Security Values in U.S. Immigration Policy",
+        "authors": [
+          {
+            "name": "Abby Simmons",
+            "affiliation": "Randolph-Macon College"
+          }
+        ]
+      },
+      {
+        "paper_title": "Triggering Trouble: Wildlife vs. Weapon Laws",
+        "authors": [
+          {
+            "name": "Colin Randolph Greene",
+            "affiliation": "College Student"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Geoffrey Peterson",
+        "affiliation": "University of Wisconsin-Eau Claire"
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Cambridge",
+    "building": "2nd",
+    "topic": "Comparative Politics of Developing Areas",
+    "session_title": "Politics of Conflict and Rebellion",
+    "chair": {
+      "name": "Adam Golob",
+      "affiliation": "Centenary College of Louisiana"
+    },
+    "participants": [
+      {
+        "paper_title": "An Empirical Study of Ethnic Riots in Subnational India",
+        "authors": [
+          {
+            "name": "Md Maniruzzaman Mamun",
+            "affiliation": "University of Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "Childhood Interrupted: The Shrinking Age of Gang Recruitment in the Northern Triangle",
+        "authors": [
+          {
+            "name": "Adam Golob",
+            "affiliation": "Centenary College of Louisiana"
+          }
+        ]
+      },
+      {
+        "paper_title": "From Immigrants to Enemies? Threat Perceptions and the Spatial Dynamics of Xenophobic Violence in South Africa",
+        "authors": [
+          {
+            "name": "Nixon Shingai Chekenya",
+            "affiliation": "Texas Tech University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Peasant Campaigns and Repression: How Social Class and Threat Perception Shape State Violence",
+        "authors": [
+          {
+            "name": "Sania Akter",
+            "affiliation": "Louisiana State University"
+          },
+          {
+            "name": "Pearce Edwards",
+            "affiliation": "Texas Christian University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Examining the Effect of Conflict on Pregnancy Outcomes in Sub-Saharan Africa: A Geospatial Analysis",
+        "authors": [
+          {
+            "name": "Peter O Thompson",
+            "affiliation": "Appalachian State University"
+          },
+          {
+            "name": "Lilian Ouja Ademu",
+            "affiliation": "Texas A&M AgriLife Research Center"
+          },
+          {
+            "name": "Claudio Owusu",
+            "affiliation": "General Dynamics Information Technology"
+          },
+          {
+            "name": "Sarah Adi Paul",
+            "affiliation": "University of North Carolina Charlotte"
+          },
+          {
+            "name": "Celestina Atom",
+            "affiliation": "Teesside University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Adam Golob",
+        "affiliation": "Centenary College of Louisiana"
+      },
+      {
+        "name": "Pearce Edwards",
+        "affiliation": "Texas Christian University"
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Churchill B2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #8: Social Vulnerabilities",
+    "chair": {
+      "name": "Ashley Ross",
+      "affiliation": "Texas A&M University at Galveston"
+    },
+    "participants": [
+      {
+        "paper_title": "Community through the Lens of Capital: How household resources shape relocation perceptions and pathways",
+        "authors": [
+          {
+            "name": "Abbey Hotard",
+            "affiliation": "University of South Alabama"
+          },
+          {
+            "name": "Ashley Ross",
+            "affiliation": "Texas A&M University at Galveston"
+          }
+        ]
+      },
+      {
+        "paper_title": "Cooperative Extension as Third Responders: CEP’s Role in Recovery",
+        "authors": [
+          {
+            "name": "Krystle Allen",
+            "affiliation": "Southern University Agricultural Research and Extension Center"
+          }
+        ]
+      },
+      {
+        "paper_title": "Food and Nutrition Security Amid Compounding Disasters",
+        "authors": [
+          {
+            "name": "Lauren Clay",
+            "affiliation": "University of Maryland Baltimore County"
+          }
+        ]
+      },
+      {
+        "paper_title": "Climate Disasters Mobilize the Rich but not the Poor: Voter Turnout in Post - Harvey Texas",
+        "authors": [
+          {
+            "name": "Ted Chen",
+            "affiliation": "George Mason University"
+          },
+          {
+            "name": "Xu Xu",
+            "affiliation": "Princeton University"
+          },
+          {
+            "name": "Christopher Fariss",
+            "affiliation": "University of Michigan"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Networked Politics of Climate Vulnerability: Disasters, Supply Chains, and Climate Lobbying",
+        "authors": [
+          {
+            "name": "Laura Comini",
+            "affiliation": "University of Michigan"
+          },
+          {
+            "name": "Hao Zhang",
+            "affiliation": "New York University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Portraits of resilience: A study of sources of resilience and risk in historically marginalized communities",
+        "authors": [
+          {
+            "name": "Courtney Page-Tan",
+            "affiliation": "Indiana University Indianapolis"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Clinton R. McNair",
+        "affiliation": "Rutgers University- Camden"
+      },
+      {
+        "name": "Ted Chen",
+        "affiliation": "George Mason University"
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Churchill C2",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #10: Environment, Disasters, and Migration",
+    "chair": {
+      "name": "Alex Sager",
+      "affiliation": "Portland State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Does Climate Change Influence Migration Intentions? It Depends How You Ask",
+        "authors": [
+          {
+            "name": "Beth Elise Whitaker",
+            "affiliation": "University of North Carolina at Charlotte"
+          },
+          {
+            "name": "Alexander Kustov",
+            "affiliation": "UNC Charlotte"
+          },
+          {
+            "name": "James Igoe Walsh",
+            "affiliation": "UNC Charlotte"
+          },
+          {
+            "name": "Michael Ewers",
+            "affiliation": "UNC Charlotte"
+          },
+          {
+            "name": "Jacob Scheff",
+            "affiliation": "UNC Charlotte"
+          },
+          {
+            "name": "Iván Flores Martínez",
+            "affiliation": "UNC Charlotte"
+          }
+        ]
+      },
+      {
+        "paper_title": "Border Disputes as Potential Barriers to Disaster Response",
+        "authors": [
+          {
+            "name": "Sara Mitchell",
+            "affiliation": "University of Iowa"
+          },
+          {
+            "name": "Adam Lappe",
+            "affiliation": "University of Iowa"
+          }
+        ]
+      },
+      {
+        "paper_title": "Have Land, Will Travel: How Land Tenure Security Impacts Rural Guatemalan Households",
+        "authors": [
+          {
+            "name": "Taft Crowley",
+            "affiliation": "University of California Santa Barbara"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Shelby Carvalho",
+        "affiliation": "Stanford University"
+      },
+      {
+        "name": "Adam Lappe",
+        "affiliation": "University of Iowa"
+      },
+      {
+        "name": "A panel discussing environment",
+        "affiliation": "disasters, and migration."
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Churchill D",
+    "building": "2nd",
+    "topic": "Conference Within A Conference",
+    "session_title": "CwC #1: Talking about Elections: Information, Trust, and Confidence",
+    "chair": {
+      "name": "Joseph Coll",
+      "affiliation": "Texas Tech University"
+    },
+    "participants": [
+      {
+        "paper_title": "All Talk, No Ballot? Congressional Chatter on Election Integrity",
+        "authors": [
+          {
+            "name": "Barsky Christina",
+            "affiliation": "University of Vermont"
+          },
+          {
+            "name": "Amanda Clark",
+            "affiliation": "University of Texas-Dallas"
+          }
+        ]
+      },
+      {
+        "paper_title": "Election Officials as Trusted Sources of Info: The Relationship between Exposure to Election Officials’ Communications and Attitudes Towards Election Administration",
+        "authors": [
+          {
+            "name": "Thessalia Merivaki",
+            "affiliation": "Georgetown University"
+          },
+          {
+            "name": "Mara Suttman-Lea",
+            "affiliation": "Connecticut College"
+          },
+          {
+            "name": "Lisa A Bryant",
+            "affiliation": "CSU, Fresno"
+          }
+        ]
+      },
+      {
+        "paper_title": "Sustaining Electoral C onfidence: The Resilience of Trust - Building Messages Amid Counterframes and Over Time",
+        "authors": [
+          {
+            "name": "Thad Kousser",
+            "affiliation": "UC San Diego"
+          },
+          {
+            "name": "Cheryl Boudreau",
+            "affiliation": "UC Davis"
+          },
+          {
+            "name": "Jennifer Gaudette",
+            "affiliation": "UC Riverside"
+          },
+          {
+            "name": "Seth Hill",
+            "affiliation": "UC San Diego"
+          },
+          {
+            "name": "Mackenzie Lockhart",
+            "affiliation": "Yale University"
+          },
+          {
+            "name": "Mindy Romero",
+            "affiliation": "University of Southern California, Price"
+          },
+          {
+            "name": "Laura Uribe",
+            "affiliation": "UC San Diego"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Corwin Smidt",
+        "affiliation": "Michigan State University"
+      },
+      {
+        "name": "A panel discussing elections: information",
+        "affiliation": "trust, and confidence."
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Commerce",
+    "building": "3rd     Participants",
+    "topic": "International Conflict and Security",
+    "session_title": "Media, Narratives, and Conflict",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Eglinton Winton",
+    "building": "",
+    "topic": "Women, Gender, and Politics",
+    "session_title": "The Politics of Reproductive Freedom after Dobbs v. Jackson",
+    "chair": {
+      "name": "Karen O'Connor",
+      "affiliation": "American University"
+    },
+    "participants": [
+      {
+        "paper_title": "After Dobbs: Women State Legislators and Abortion Policy",
+        "authors": [
+          {
+            "name": "Teresa Cornacchione",
+            "affiliation": "University of Florida"
+          }
+        ]
+      },
+      {
+        "paper_title": "Increase in Obstetric-Related 9-1-1 Emergencies After the Supreme Court Dobbs Decision",
+        "authors": [
+          {
+            "name": "Jonathan Ready Powell",
+            "affiliation": "ImageTrend Inc"
+          },
+          {
+            "name": "Jaclyn Bunch",
+            "affiliation": "University of South Alabama"
+          }
+        ]
+      },
+      {
+        "paper_title": "Storytelling in Abortion Advocacy",
+        "authors": [
+          {
+            "name": "Clare Daniel",
+            "affiliation": "Tulane University"
+          },
+          {
+            "name": "Anna Mahoney",
+            "affiliation": "Dartmouth College"
+          },
+          {
+            "name": "Grace Riley",
+            "affiliation": "Rush Medical College"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Politics of Obstetric and Gynecological Harm in the United States",
+        "authors": [
+          {
+            "name": "Joshua Preston Miller",
+            "affiliation": "University of North Carolina at Charlotte"
+          },
+          {
+            "name": "Mary Atkinson",
+            "affiliation": "UNC Charlotte"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Alixandra Yanus",
+        "affiliation": "High Point University"
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Kobacoff",
+    "building": "Participants",
+    "topic": "Teaching Political Science",
+    "session_title": "Meeting Student Needs as Educators and Research Mentors",
+    "chair": {},
+    "participants": [],
+    "discussants": []
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Magazine",
+    "building": "3rd",
+    "topic": "Political Theory",
+    "session_title": "Thucydides and Plato: Thinking Through the Cave of Empire",
+    "chair": {
+      "name": "Borden Flanagan",
+      "affiliation": "American University"
+    },
+    "participants": [
+      {
+        "paper_title": "What’s So Good About the Good? Pericles and Socrates on the Politics of Eros",
+        "authors": [
+          {
+            "name": "Borden Flanagan",
+            "affiliation": "American University"
+          }
+        ]
+      },
+      {
+        "paper_title": "A Metaphysical Thucydides? Reading the ‘History’ in Light of Plato’s Timaeus and Critias",
+        "authors": [
+          {
+            "name": "Bernard J Dobski",
+            "affiliation": "Assumption University"
+          }
+        ]
+      },
+      {
+        "paper_title": "Thucydidean Dialogue and Plato",
+        "authors": [
+          {
+            "name": "Charlotte Thomas",
+            "affiliation": "Mercer University"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Clifford Orwin",
+        "affiliation": "University of Toronto"
+      },
+      {
+        "name": "Many commentators have written on the Peloponnesian war as it figures as the historical setting of",
+        "affiliation": ""
+      },
+      {
+        "name": "Platonic dialogues",
+        "affiliation": "but relatively little attention has been paid to Plato’s relation to Thucydides the thinker"
+      },
+      {
+        "name": "Plato’s artistry and to his account of how philosophic questions emerge from political ones allows for a",
+        "affiliation": ""
+      }
+    ]
+  },
+  {
+    "session_id": "2700",
+    "day": "Thursday",
+    "start_time": "5:00pm",
+    "end_time": "6:15pm",
+    "room": "Steering",
+    "building": "Riverside",
+    "topic": "Presidential and Executive Politics",
+    "session_title": "Presidential Power and Leadership I",
+    "chair": {
+      "name": "Ryan Carlin",
+      "affiliation": "Georgia State University"
+    },
+    "participants": [
+      {
+        "paper_title": "Parties and Presidential Leadership on the Environment: Who Takes the Lead?",
+        "authors": [
+          {
+            "name": "Mark Andrew Kelso",
+            "affiliation": "Queens University of Charlotte"
+          }
+        ]
+      },
+      {
+        "paper_title": "Presidential Messages on Legislation and the Congressional Targets of Lobbying",
+        "authors": [
+          {
+            "name": "Huchen Liu",
+            "affiliation": "University of Nebraska Omaha"
+          }
+        ]
+      },
+      {
+        "paper_title": "Presidential Particularism and Federal Grant Allocation",
+        "authors": [
+          {
+            "name": "Mark Weiss",
+            "affiliation": "University of Michigan"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Strategic Presidency: The Politics of Symbolic Executive Action",
+        "authors": [
+          {
+            "name": "Yao Yao",
+            "affiliation": "University of Georgia"
+          }
+        ]
+      },
+      {
+        "paper_title": "The Impact of Executive Orders on Racial Minorities in the U.S.",
+        "authors": [
+          {
+            "name": "Giselle Tucker",
+            "affiliation": "Georgia Highlands College"
+          }
+        ]
+      }
+    ],
+    "discussants": [
+      {
+        "name": "Fred Gui",
+        "affiliation": "LSU"
+      },
+      {
+        "name": "Billy Monroe",
+        "affiliation": "Prairie View A&M University"
+      }
+    ]
+  }
+]
